@@ -1,6 +1,6 @@
 # 🪐 Saturn YAUL Studio (YAUL Engine & Editor)
 
-![Sega Saturn Studio](sega_saturn_studio.png)
+![Sega Saturn Studio](sss-logo.png)
 
 **Saturn YAUL Studio** is a complete C++ game engine and visual editor for
 Windows, inspired by Unity and focused on developing native **Sega
