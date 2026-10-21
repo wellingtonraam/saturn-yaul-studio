@@ -1,0 +1,2371 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineSystem.cmake:218 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Embarcadero\\Studio\\37.0\\bin"
+        - "C:\\Users\\Public\\Documents\\Embarcadero\\Studio\\37.0\\Bpl"
+        - "C:\\Program Files (x86)\\Embarcadero\\Studio\\37.0\\bin64"
+        - "C:\\Users\\Public\\Documents\\Embarcadero\\Studio\\37.0\\Bpl\\Win64"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\Suporte Evoltech\\.config\\herd\\bin\\nvm"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Users\\Suporte Evoltech\\.config\\herd\\bin\\php84"
+        - "C:\\ProgramData\\ComposerSetup\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\Programs\\Python\\Python39\\Scripts"
+        - "C:\\Program Files\\Git\\bin"
+        - "C:\\ffmpeg"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\Programs\\Python\\Python39\\"
+        - "C:\\Program Files\\VideoLAN\\VLC\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\110\\Tools\\Binn\\ManagementStudio\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\110\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio 10.0\\Common7\\IDE\\PrivateAssemblies\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\110\\DTS\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\110\\DTS\\Binn\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Suporte Evoltech\\.config\\herd\\bin"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Roaming\\Composer\\vendor\\bin"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\PowerToys\\DSCModules\\"
+        - "C:\\Users\\Suporte Evoltech\\.dotnet\\tools"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft(R) Build Engine versão 16.11.6+a918ceb31 para .NET Framework 
+      Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+      
+      Compilação de 14/09/2026 10:33:29 iniciada.
+      Projeto "D:\\Desenvolvimento\\Engine\\saturn-yaul-studio\\editor\\build\\CMakeFiles\\4.4.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" no nó 1 (destinos padrão).
+      PrepareForBuild:
+        Criando o diretório "Debug\\".
+        Criando o diretório "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Criando "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> D:\\Desenvolvimento\\Engine\\saturn-yaul-studio\\editor\\build\\CMakeFiles\\4.4.3\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Excluindo o arquivo "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Tocando "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Projeto de compilação pronto "D:\\Desenvolvimento\\Engine\\saturn-yaul-studio\\editor\\build\\CMakeFiles\\4.4.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (destinos padrão).
+      
+      Compilação com êxito.
+          0 Aviso(s)
+          0 Erro(s)
+      
+      Tempo Decorrido 00:00:01.32
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/Desenvolvimento/Engine/saturn-yaul-studio/editor/build/CMakeFiles/4.4.3/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:64 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:102 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Embarcadero/Studio/37.0/bin/"
+      - "C:/Users/Public/Documents/Embarcadero/Studio/37.0/Bpl/"
+      - "C:/Program Files (x86)/Embarcadero/Studio/37.0/bin64/"
+      - "C:/Users/Public/Documents/Embarcadero/Studio/37.0/Bpl/Win64/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Users/Suporte Evoltech/.config/herd/bin/nvm/"
+      - "C:/Users/Suporte Evoltech/.config/herd/bin/php84/"
+      - "C:/ProgramData/ComposerSetup/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python39/Scripts/"
+      - "C:/Program Files/Git/bin/"
+      - "C:/ffmpeg/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python39/"
+      - "C:/Program Files/VideoLAN/VLC/"
+      - "C:/Program Files/Microsoft SQL Server/110/Tools/Binn/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/110/Tools/Binn/ManagementStudio/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/110/Tools/Binn/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio 10.0/Common7/IDE/PrivateAssemblies/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/110/DTS/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/110/DTS/Binn/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Suporte Evoltech/.config/herd/bin/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/Suporte Evoltech/AppData/Roaming/npm/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Suporte Evoltech/AppData/Roaming/Composer/vendor/bin/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/PowerToys/DSCModules/"
+      - "C:/Users/Suporte Evoltech/.dotnet/tools/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python314/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python314/Scripts/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Embarcadero\\Studio\\37.0\\bin"
+        - "C:\\Users\\Public\\Documents\\Embarcadero\\Studio\\37.0\\Bpl"
+        - "C:\\Program Files (x86)\\Embarcadero\\Studio\\37.0\\bin64"
+        - "C:\\Users\\Public\\Documents\\Embarcadero\\Studio\\37.0\\Bpl\\Win64"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\Suporte Evoltech\\.config\\herd\\bin\\nvm"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Users\\Suporte Evoltech\\.config\\herd\\bin\\php84"
+        - "C:\\ProgramData\\ComposerSetup\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\Programs\\Python\\Python39\\Scripts"
+        - "C:\\Program Files\\Git\\bin"
+        - "C:\\ffmpeg"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\Programs\\Python\\Python39\\"
+        - "C:\\Program Files\\VideoLAN\\VLC\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\110\\Tools\\Binn\\ManagementStudio\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\110\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio 10.0\\Common7\\IDE\\PrivateAssemblies\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\110\\DTS\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\110\\DTS\\Binn\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Suporte Evoltech\\.config\\herd\\bin"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Roaming\\Composer\\vendor\\bin"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\PowerToys\\DSCModules\\"
+        - "C:\\Users\\Suporte Evoltech\\.dotnet\\tools"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:64 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Embarcadero/Studio/37.0/bin/"
+      - "C:/Users/Public/Documents/Embarcadero/Studio/37.0/Bpl/"
+      - "C:/Program Files (x86)/Embarcadero/Studio/37.0/bin64/"
+      - "C:/Users/Public/Documents/Embarcadero/Studio/37.0/Bpl/Win64/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Users/Suporte Evoltech/.config/herd/bin/nvm/"
+      - "C:/Users/Suporte Evoltech/.config/herd/bin/php84/"
+      - "C:/ProgramData/ComposerSetup/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python39/Scripts/"
+      - "C:/Program Files/Git/bin/"
+      - "C:/ffmpeg/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python39/"
+      - "C:/Program Files/VideoLAN/VLC/"
+      - "C:/Program Files/Microsoft SQL Server/110/Tools/Binn/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/110/Tools/Binn/ManagementStudio/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/110/Tools/Binn/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio 10.0/Common7/IDE/PrivateAssemblies/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/110/DTS/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/110/DTS/Binn/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Suporte Evoltech/.config/herd/bin/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/Suporte Evoltech/AppData/Roaming/npm/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Suporte Evoltech/AppData/Roaming/Composer/vendor/bin/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/PowerToys/DSCModules/"
+      - "C:/Users/Suporte Evoltech/.dotnet/tools/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python314/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python314/Scripts/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/lld-link"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Program Files (x86)/Embarcadero/Studio/37.0/bin/lld-link.com"
+      - "C:/Program Files (x86)/Embarcadero/Studio/37.0/bin/lld-link.exe"
+      - "C:/Program Files (x86)/Embarcadero/Studio/37.0/bin/lld-link"
+      - "C:/Users/Public/Documents/Embarcadero/Studio/37.0/Bpl/lld-link.com"
+      - "C:/Users/Public/Documents/Embarcadero/Studio/37.0/Bpl/lld-link.exe"
+      - "C:/Users/Public/Documents/Embarcadero/Studio/37.0/Bpl/lld-link"
+      - "C:/Program Files (x86)/Embarcadero/Studio/37.0/bin64/lld-link.com"
+      - "C:/Program Files (x86)/Embarcadero/Studio/37.0/bin64/lld-link.exe"
+      - "C:/Program Files (x86)/Embarcadero/Studio/37.0/bin64/lld-link"
+      - "C:/Users/Public/Documents/Embarcadero/Studio/37.0/Bpl/Win64/lld-link.com"
+      - "C:/Users/Public/Documents/Embarcadero/Studio/37.0/Bpl/Win64/lld-link.exe"
+      - "C:/Users/Public/Documents/Embarcadero/Studio/37.0/Bpl/Win64/lld-link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files/nodejs/lld-link.com"
+      - "C:/Program Files/nodejs/lld-link.exe"
+      - "C:/Program Files/nodejs/lld-link"
+      - "C:/Users/Suporte Evoltech/.config/herd/bin/nvm/lld-link.com"
+      - "C:/Users/Suporte Evoltech/.config/herd/bin/nvm/lld-link.exe"
+      - "C:/Users/Suporte Evoltech/.config/herd/bin/nvm/lld-link"
+      - "C:/Users/Suporte Evoltech/.config/herd/bin/php84/lld-link.com"
+      - "C:/Users/Suporte Evoltech/.config/herd/bin/php84/lld-link.exe"
+      - "C:/Users/Suporte Evoltech/.config/herd/bin/php84/lld-link"
+      - "C:/ProgramData/ComposerSetup/bin/lld-link.com"
+      - "C:/ProgramData/ComposerSetup/bin/lld-link.exe"
+      - "C:/ProgramData/ComposerSetup/bin/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files/PuTTY/lld-link.com"
+      - "C:/Program Files/PuTTY/lld-link.exe"
+      - "C:/Program Files/PuTTY/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python39/Scripts/lld-link.com"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python39/Scripts/lld-link.exe"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python39/Scripts/lld-link"
+      - "C:/Program Files/Git/bin/lld-link.com"
+      - "C:/Program Files/Git/bin/lld-link.exe"
+      - "C:/Program Files/Git/bin/lld-link"
+      - "C:/ffmpeg/lld-link.com"
+      - "C:/ffmpeg/lld-link.exe"
+      - "C:/ffmpeg/lld-link"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python39/lld-link.com"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python39/lld-link.exe"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python39/lld-link"
+      - "C:/Program Files/VideoLAN/VLC/lld-link.com"
+      - "C:/Program Files/VideoLAN/VLC/lld-link.exe"
+      - "C:/Program Files/VideoLAN/VLC/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/110/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/110/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/110/Tools/Binn/lld-link"
+      - "C:/Program Files (x86)/Microsoft SQL Server/110/Tools/Binn/ManagementStudio/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft SQL Server/110/Tools/Binn/ManagementStudio/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft SQL Server/110/Tools/Binn/ManagementStudio/lld-link"
+      - "C:/Program Files (x86)/Microsoft SQL Server/110/Tools/Binn/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft SQL Server/110/Tools/Binn/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft SQL Server/110/Tools/Binn/lld-link"
+      - "C:/Program Files (x86)/Microsoft Visual Studio 10.0/Common7/IDE/PrivateAssemblies/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio 10.0/Common7/IDE/PrivateAssemblies/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio 10.0/Common7/IDE/PrivateAssemblies/lld-link"
+      - "C:/Program Files (x86)/Microsoft SQL Server/110/DTS/Binn/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft SQL Server/110/DTS/Binn/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft SQL Server/110/DTS/Binn/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/110/DTS/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/110/DTS/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/110/DTS/Binn/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Launcher/lld-link.com"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Launcher/lld-link.exe"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Launcher/lld-link"
+      - "C:/Users/Suporte Evoltech/.config/herd/bin/lld-link.com"
+      - "C:/Users/Suporte Evoltech/.config/herd/bin/lld-link.exe"
+      - "C:/Users/Suporte Evoltech/.config/herd/bin/lld-link"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/Suporte Evoltech/AppData/Local/GitHubDesktop/bin/lld-link.com"
+      - "C:/Users/Suporte Evoltech/AppData/Local/GitHubDesktop/bin/lld-link.exe"
+      - "C:/Users/Suporte Evoltech/AppData/Local/GitHubDesktop/bin/lld-link"
+      - "C:/Users/Suporte Evoltech/AppData/Roaming/npm/lld-link.com"
+      - "C:/Users/Suporte Evoltech/AppData/Roaming/npm/lld-link.exe"
+      - "C:/Users/Suporte Evoltech/AppData/Roaming/npm/lld-link"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/Suporte Evoltech/AppData/Roaming/Composer/vendor/bin/lld-link.com"
+      - "C:/Users/Suporte Evoltech/AppData/Roaming/Composer/vendor/bin/lld-link.exe"
+      - "C:/Users/Suporte Evoltech/AppData/Roaming/Composer/vendor/bin/lld-link"
+      - "C:/Users/Suporte Evoltech/AppData/Local/PowerToys/DSCModules/lld-link.com"
+      - "C:/Users/Suporte Evoltech/AppData/Local/PowerToys/DSCModules/lld-link.exe"
+      - "C:/Users/Suporte Evoltech/AppData/Local/PowerToys/DSCModules/lld-link"
+      - "C:/Users/Suporte Evoltech/.dotnet/tools/lld-link.com"
+      - "C:/Users/Suporte Evoltech/.dotnet/tools/lld-link.exe"
+      - "C:/Users/Suporte Evoltech/.dotnet/tools/lld-link"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python314/lld-link.com"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python314/lld-link.exe"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python314/lld-link"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python314/Scripts/lld-link.com"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python314/Scripts/lld-link.exe"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python314/Scripts/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Embarcadero\\Studio\\37.0\\bin"
+        - "C:\\Users\\Public\\Documents\\Embarcadero\\Studio\\37.0\\Bpl"
+        - "C:\\Program Files (x86)\\Embarcadero\\Studio\\37.0\\bin64"
+        - "C:\\Users\\Public\\Documents\\Embarcadero\\Studio\\37.0\\Bpl\\Win64"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\Suporte Evoltech\\.config\\herd\\bin\\nvm"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Users\\Suporte Evoltech\\.config\\herd\\bin\\php84"
+        - "C:\\ProgramData\\ComposerSetup\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\Programs\\Python\\Python39\\Scripts"
+        - "C:\\Program Files\\Git\\bin"
+        - "C:\\ffmpeg"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\Programs\\Python\\Python39\\"
+        - "C:\\Program Files\\VideoLAN\\VLC\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\110\\Tools\\Binn\\ManagementStudio\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\110\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio 10.0\\Common7\\IDE\\PrivateAssemblies\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\110\\DTS\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\110\\DTS\\Binn\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Suporte Evoltech\\.config\\herd\\bin"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Roaming\\Composer\\vendor\\bin"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\PowerToys\\DSCModules\\"
+        - "C:\\Users\\Suporte Evoltech\\.dotnet\\tools"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Embarcadero/Studio/37.0/bin/"
+      - "C:/Users/Public/Documents/Embarcadero/Studio/37.0/Bpl/"
+      - "C:/Program Files (x86)/Embarcadero/Studio/37.0/bin64/"
+      - "C:/Users/Public/Documents/Embarcadero/Studio/37.0/Bpl/Win64/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Users/Suporte Evoltech/.config/herd/bin/nvm/"
+      - "C:/Users/Suporte Evoltech/.config/herd/bin/php84/"
+      - "C:/ProgramData/ComposerSetup/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python39/Scripts/"
+      - "C:/Program Files/Git/bin/"
+      - "C:/ffmpeg/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python39/"
+      - "C:/Program Files/VideoLAN/VLC/"
+      - "C:/Program Files/Microsoft SQL Server/110/Tools/Binn/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/110/Tools/Binn/ManagementStudio/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/110/Tools/Binn/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio 10.0/Common7/IDE/PrivateAssemblies/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/110/DTS/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/110/DTS/Binn/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Suporte Evoltech/.config/herd/bin/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/Suporte Evoltech/AppData/Roaming/npm/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Suporte Evoltech/AppData/Roaming/Composer/vendor/bin/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/PowerToys/DSCModules/"
+      - "C:/Users/Suporte Evoltech/.dotnet/tools/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python314/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python314/Scripts/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Embarcadero\\Studio\\37.0\\bin"
+        - "C:\\Users\\Public\\Documents\\Embarcadero\\Studio\\37.0\\Bpl"
+        - "C:\\Program Files (x86)\\Embarcadero\\Studio\\37.0\\bin64"
+        - "C:\\Users\\Public\\Documents\\Embarcadero\\Studio\\37.0\\Bpl\\Win64"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\Suporte Evoltech\\.config\\herd\\bin\\nvm"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Users\\Suporte Evoltech\\.config\\herd\\bin\\php84"
+        - "C:\\ProgramData\\ComposerSetup\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\Programs\\Python\\Python39\\Scripts"
+        - "C:\\Program Files\\Git\\bin"
+        - "C:\\ffmpeg"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\Programs\\Python\\Python39\\"
+        - "C:\\Program Files\\VideoLAN\\VLC\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\110\\Tools\\Binn\\ManagementStudio\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\110\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio 10.0\\Common7\\IDE\\PrivateAssemblies\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\110\\DTS\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\110\\DTS\\Binn\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Suporte Evoltech\\.config\\herd\\bin"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Roaming\\Composer\\vendor\\bin"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\PowerToys\\DSCModules\\"
+        - "C:\\Users\\Suporte Evoltech\\.dotnet\\tools"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Embarcadero/Studio/37.0/bin/"
+      - "C:/Users/Public/Documents/Embarcadero/Studio/37.0/Bpl/"
+      - "C:/Program Files (x86)/Embarcadero/Studio/37.0/bin64/"
+      - "C:/Users/Public/Documents/Embarcadero/Studio/37.0/Bpl/Win64/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Users/Suporte Evoltech/.config/herd/bin/nvm/"
+      - "C:/Users/Suporte Evoltech/.config/herd/bin/php84/"
+      - "C:/ProgramData/ComposerSetup/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python39/Scripts/"
+      - "C:/Program Files/Git/bin/"
+      - "C:/ffmpeg/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python39/"
+      - "C:/Program Files/VideoLAN/VLC/"
+      - "C:/Program Files/Microsoft SQL Server/110/Tools/Binn/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/110/Tools/Binn/ManagementStudio/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/110/Tools/Binn/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio 10.0/Common7/IDE/PrivateAssemblies/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/110/DTS/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/110/DTS/Binn/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Suporte Evoltech/.config/herd/bin/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/Suporte Evoltech/AppData/Roaming/npm/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Suporte Evoltech/AppData/Roaming/Composer/vendor/bin/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/PowerToys/DSCModules/"
+      - "C:/Users/Suporte Evoltech/.dotnet/tools/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python314/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python314/Scripts/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/mt.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/mt.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/mt"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt"
+      - "C:/Program Files (x86)/Embarcadero/Studio/37.0/bin/mt.com"
+      - "C:/Program Files (x86)/Embarcadero/Studio/37.0/bin/mt.exe"
+      - "C:/Program Files (x86)/Embarcadero/Studio/37.0/bin/mt"
+      - "C:/Users/Public/Documents/Embarcadero/Studio/37.0/Bpl/mt.com"
+      - "C:/Users/Public/Documents/Embarcadero/Studio/37.0/Bpl/mt.exe"
+      - "C:/Users/Public/Documents/Embarcadero/Studio/37.0/Bpl/mt"
+      - "C:/Program Files (x86)/Embarcadero/Studio/37.0/bin64/mt.com"
+      - "C:/Program Files (x86)/Embarcadero/Studio/37.0/bin64/mt.exe"
+      - "C:/Program Files (x86)/Embarcadero/Studio/37.0/bin64/mt"
+      - "C:/Users/Public/Documents/Embarcadero/Studio/37.0/Bpl/Win64/mt.com"
+      - "C:/Users/Public/Documents/Embarcadero/Studio/37.0/Bpl/Win64/mt.exe"
+      - "C:/Users/Public/Documents/Embarcadero/Studio/37.0/Bpl/Win64/mt"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/mt.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/mt.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/mt"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt"
+      - "C:/Windows/System32/mt.com"
+      - "C:/Windows/System32/mt.exe"
+      - "C:/Windows/System32/mt"
+      - "C:/Windows/mt.com"
+      - "C:/Windows/mt.exe"
+      - "C:/Windows/mt"
+      - "C:/Windows/System32/wbem/mt.com"
+      - "C:/Windows/System32/wbem/mt.exe"
+      - "C:/Windows/System32/wbem/mt"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
+      - "C:/Windows/System32/OpenSSH/mt.com"
+      - "C:/Windows/System32/OpenSSH/mt.exe"
+      - "C:/Windows/System32/OpenSSH/mt"
+      - "C:/Program Files/Git/cmd/mt.com"
+      - "C:/Program Files/Git/cmd/mt.exe"
+      - "C:/Program Files/Git/cmd/mt"
+      - "C:/Program Files/nodejs/mt.com"
+      - "C:/Program Files/nodejs/mt.exe"
+      - "C:/Program Files/nodejs/mt"
+      - "C:/Users/Suporte Evoltech/.config/herd/bin/nvm/mt.com"
+      - "C:/Users/Suporte Evoltech/.config/herd/bin/nvm/mt.exe"
+      - "C:/Users/Suporte Evoltech/.config/herd/bin/nvm/mt"
+      - "C:/Users/Suporte Evoltech/.config/herd/bin/php84/mt.com"
+      - "C:/Users/Suporte Evoltech/.config/herd/bin/php84/mt.exe"
+      - "C:/Users/Suporte Evoltech/.config/herd/bin/php84/mt"
+      - "C:/ProgramData/ComposerSetup/bin/mt.com"
+      - "C:/ProgramData/ComposerSetup/bin/mt.exe"
+      - "C:/ProgramData/ComposerSetup/bin/mt"
+      - "C:/Program Files/dotnet/mt.com"
+      - "C:/Program Files/dotnet/mt.exe"
+      - "C:/Program Files/dotnet/mt"
+      - "C:/Program Files/PuTTY/mt.com"
+      - "C:/Program Files/PuTTY/mt.exe"
+      - "C:/Program Files/PuTTY/mt"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python39/Scripts/mt.com"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python39/Scripts/mt.exe"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python39/Scripts/mt"
+      - "C:/Program Files/Git/bin/mt.com"
+      - "C:/Program Files/Git/bin/mt.exe"
+      - "C:/Program Files/Git/bin/mt"
+      - "C:/ffmpeg/mt.com"
+      - "C:/ffmpeg/mt.exe"
+      - "C:/ffmpeg/mt"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python39/mt.com"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python39/mt.exe"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python39/mt"
+      - "C:/Program Files/VideoLAN/VLC/mt.com"
+      - "C:/Program Files/VideoLAN/VLC/mt.exe"
+      - "C:/Program Files/VideoLAN/VLC/mt"
+      - "C:/Program Files/Microsoft SQL Server/110/Tools/Binn/mt.com"
+      - "C:/Program Files/Microsoft SQL Server/110/Tools/Binn/mt.exe"
+      - "C:/Program Files/Microsoft SQL Server/110/Tools/Binn/mt"
+      - "C:/Program Files (x86)/Microsoft SQL Server/110/Tools/Binn/ManagementStudio/mt.com"
+      - "C:/Program Files (x86)/Microsoft SQL Server/110/Tools/Binn/ManagementStudio/mt.exe"
+      - "C:/Program Files (x86)/Microsoft SQL Server/110/Tools/Binn/ManagementStudio/mt"
+      - "C:/Program Files (x86)/Microsoft SQL Server/110/Tools/Binn/mt.com"
+      - "C:/Program Files (x86)/Microsoft SQL Server/110/Tools/Binn/mt.exe"
+      - "C:/Program Files (x86)/Microsoft SQL Server/110/Tools/Binn/mt"
+      - "C:/Program Files (x86)/Microsoft Visual Studio 10.0/Common7/IDE/PrivateAssemblies/mt.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio 10.0/Common7/IDE/PrivateAssemblies/mt.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio 10.0/Common7/IDE/PrivateAssemblies/mt"
+      - "C:/Program Files (x86)/Microsoft SQL Server/110/DTS/Binn/mt.com"
+      - "C:/Program Files (x86)/Microsoft SQL Server/110/DTS/Binn/mt.exe"
+      - "C:/Program Files (x86)/Microsoft SQL Server/110/DTS/Binn/mt"
+      - "C:/Program Files/Microsoft SQL Server/110/DTS/Binn/mt.com"
+      - "C:/Program Files/Microsoft SQL Server/110/DTS/Binn/mt.exe"
+      - "C:/Program Files/Microsoft SQL Server/110/DTS/Binn/mt"
+      - "C:/Program Files/CMake/bin/mt.com"
+      - "C:/Program Files/CMake/bin/mt.exe"
+      - "C:/Program Files/CMake/bin/mt"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Launcher/mt.com"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Launcher/mt.exe"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Launcher/mt"
+      - "C:/Users/Suporte Evoltech/.config/herd/bin/mt.com"
+      - "C:/Users/Suporte Evoltech/.config/herd/bin/mt.exe"
+      - "C:/Users/Suporte Evoltech/.config/herd/bin/mt"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Microsoft/WindowsApps/mt"
+      - "C:/Users/Suporte Evoltech/AppData/Local/GitHubDesktop/bin/mt.com"
+      - "C:/Users/Suporte Evoltech/AppData/Local/GitHubDesktop/bin/mt.exe"
+      - "C:/Users/Suporte Evoltech/AppData/Local/GitHubDesktop/bin/mt"
+      - "C:/Users/Suporte Evoltech/AppData/Roaming/npm/mt.com"
+      - "C:/Users/Suporte Evoltech/AppData/Roaming/npm/mt.exe"
+      - "C:/Users/Suporte Evoltech/AppData/Roaming/npm/mt"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Microsoft VS Code/bin/mt.com"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Microsoft VS Code/bin/mt.exe"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Microsoft VS Code/bin/mt"
+      - "C:/Users/Suporte Evoltech/AppData/Roaming/Composer/vendor/bin/mt.com"
+      - "C:/Users/Suporte Evoltech/AppData/Roaming/Composer/vendor/bin/mt.exe"
+      - "C:/Users/Suporte Evoltech/AppData/Roaming/Composer/vendor/bin/mt"
+      - "C:/Users/Suporte Evoltech/AppData/Local/PowerToys/DSCModules/mt.com"
+      - "C:/Users/Suporte Evoltech/AppData/Local/PowerToys/DSCModules/mt.exe"
+      - "C:/Users/Suporte Evoltech/AppData/Local/PowerToys/DSCModules/mt"
+      - "C:/Users/Suporte Evoltech/.dotnet/tools/mt.com"
+      - "C:/Users/Suporte Evoltech/.dotnet/tools/mt.exe"
+      - "C:/Users/Suporte Evoltech/.dotnet/tools/mt"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python314/mt.com"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python314/mt.exe"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python314/mt"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python314/Scripts/mt.com"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python314/Scripts/mt.exe"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python314/Scripts/mt"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Embarcadero\\Studio\\37.0\\bin"
+        - "C:\\Users\\Public\\Documents\\Embarcadero\\Studio\\37.0\\Bpl"
+        - "C:\\Program Files (x86)\\Embarcadero\\Studio\\37.0\\bin64"
+        - "C:\\Users\\Public\\Documents\\Embarcadero\\Studio\\37.0\\Bpl\\Win64"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\Suporte Evoltech\\.config\\herd\\bin\\nvm"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Users\\Suporte Evoltech\\.config\\herd\\bin\\php84"
+        - "C:\\ProgramData\\ComposerSetup\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\Programs\\Python\\Python39\\Scripts"
+        - "C:\\Program Files\\Git\\bin"
+        - "C:\\ffmpeg"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\Programs\\Python\\Python39\\"
+        - "C:\\Program Files\\VideoLAN\\VLC\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\110\\Tools\\Binn\\ManagementStudio\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\110\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio 10.0\\Common7\\IDE\\PrivateAssemblies\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\110\\DTS\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\110\\DTS\\Binn\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Suporte Evoltech\\.config\\herd\\bin"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Roaming\\Composer\\vendor\\bin"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\PowerToys\\DSCModules\\"
+        - "C:\\Users\\Suporte Evoltech\\.dotnet\\tools"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Embarcadero/Studio/37.0/bin/"
+      - "C:/Users/Public/Documents/Embarcadero/Studio/37.0/Bpl/"
+      - "C:/Program Files (x86)/Embarcadero/Studio/37.0/bin64/"
+      - "C:/Users/Public/Documents/Embarcadero/Studio/37.0/Bpl/Win64/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Users/Suporte Evoltech/.config/herd/bin/nvm/"
+      - "C:/Users/Suporte Evoltech/.config/herd/bin/php84/"
+      - "C:/ProgramData/ComposerSetup/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python39/Scripts/"
+      - "C:/Program Files/Git/bin/"
+      - "C:/ffmpeg/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python39/"
+      - "C:/Program Files/VideoLAN/VLC/"
+      - "C:/Program Files/Microsoft SQL Server/110/Tools/Binn/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/110/Tools/Binn/ManagementStudio/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/110/Tools/Binn/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio 10.0/Common7/IDE/PrivateAssemblies/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/110/DTS/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/110/DTS/Binn/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Suporte Evoltech/.config/herd/bin/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/Suporte Evoltech/AppData/Roaming/npm/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Suporte Evoltech/AppData/Roaming/Composer/vendor/bin/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/PowerToys/DSCModules/"
+      - "C:/Users/Suporte Evoltech/.dotnet/tools/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python314/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python314/Scripts/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/lib.com"
+    found: "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Embarcadero\\Studio\\37.0\\bin"
+        - "C:\\Users\\Public\\Documents\\Embarcadero\\Studio\\37.0\\Bpl"
+        - "C:\\Program Files (x86)\\Embarcadero\\Studio\\37.0\\bin64"
+        - "C:\\Users\\Public\\Documents\\Embarcadero\\Studio\\37.0\\Bpl\\Win64"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\Suporte Evoltech\\.config\\herd\\bin\\nvm"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Users\\Suporte Evoltech\\.config\\herd\\bin\\php84"
+        - "C:\\ProgramData\\ComposerSetup\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\Programs\\Python\\Python39\\Scripts"
+        - "C:\\Program Files\\Git\\bin"
+        - "C:\\ffmpeg"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\Programs\\Python\\Python39\\"
+        - "C:\\Program Files\\VideoLAN\\VLC\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\110\\Tools\\Binn\\ManagementStudio\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\110\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio 10.0\\Common7\\IDE\\PrivateAssemblies\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\110\\DTS\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\110\\DTS\\Binn\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Suporte Evoltech\\.config\\herd\\bin"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Roaming\\Composer\\vendor\\bin"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\PowerToys\\DSCModules\\"
+        - "C:\\Users\\Suporte Evoltech\\.dotnet\\tools"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Embarcadero\\Studio\\37.0\\bin"
+        - "C:\\Users\\Public\\Documents\\Embarcadero\\Studio\\37.0\\Bpl"
+        - "C:\\Program Files (x86)\\Embarcadero\\Studio\\37.0\\bin64"
+        - "C:\\Users\\Public\\Documents\\Embarcadero\\Studio\\37.0\\Bpl\\Win64"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\Suporte Evoltech\\.config\\herd\\bin\\nvm"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Users\\Suporte Evoltech\\.config\\herd\\bin\\php84"
+        - "C:\\ProgramData\\ComposerSetup\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\Programs\\Python\\Python39\\Scripts"
+        - "C:\\Program Files\\Git\\bin"
+        - "C:\\ffmpeg"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\Programs\\Python\\Python39\\"
+        - "C:\\Program Files\\VideoLAN\\VLC\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\110\\Tools\\Binn\\ManagementStudio\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\110\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio 10.0\\Common7\\IDE\\PrivateAssemblies\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\110\\DTS\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\110\\DTS\\Binn\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Suporte Evoltech\\.config\\herd\\bin"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Roaming\\Composer\\vendor\\bin"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\PowerToys\\DSCModules\\"
+        - "C:\\Users\\Suporte Evoltech\\.dotnet\\tools"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft(R) Build Engine versão 16.11.6+a918ceb31 para .NET Framework 
+      Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+      
+      Compilação de 14/09/2026 10:33:30 iniciada.
+      Projeto "D:\\Desenvolvimento\\Engine\\saturn-yaul-studio\\editor\\build\\CMakeFiles\\4.4.3\\CompilerIdC\\CompilerIdC.vcxproj" no nó 1 (destinos padrão).
+      PrepareForBuild:
+        Criando o diretório "Debug\\".
+        Criando o diretório "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Criando "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\Desenvolvimento\\Engine\\saturn-yaul-studio\\editor\\build\\CMakeFiles\\4.4.3\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Excluindo o arquivo "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Tocando "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Projeto de compilação pronto "D:\\Desenvolvimento\\Engine\\saturn-yaul-studio\\editor\\build\\CMakeFiles\\4.4.3\\CompilerIdC\\CompilerIdC.vcxproj" (destinos padrão).
+      
+      Compilação com êxito.
+          0 Aviso(s)
+          0 Erro(s)
+      
+      Tempo Decorrido 00:00:00.96
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/Desenvolvimento/Engine/saturn-yaul-studio/editor/build/CMakeFiles/4.4.3/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:64 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Embarcadero/Studio/37.0/bin/"
+      - "C:/Users/Public/Documents/Embarcadero/Studio/37.0/Bpl/"
+      - "C:/Program Files (x86)/Embarcadero/Studio/37.0/bin64/"
+      - "C:/Users/Public/Documents/Embarcadero/Studio/37.0/Bpl/Win64/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Users/Suporte Evoltech/.config/herd/bin/nvm/"
+      - "C:/Users/Suporte Evoltech/.config/herd/bin/php84/"
+      - "C:/ProgramData/ComposerSetup/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python39/Scripts/"
+      - "C:/Program Files/Git/bin/"
+      - "C:/ffmpeg/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python39/"
+      - "C:/Program Files/VideoLAN/VLC/"
+      - "C:/Program Files/Microsoft SQL Server/110/Tools/Binn/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/110/Tools/Binn/ManagementStudio/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/110/Tools/Binn/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio 10.0/Common7/IDE/PrivateAssemblies/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/110/DTS/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/110/DTS/Binn/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Suporte Evoltech/.config/herd/bin/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/Suporte Evoltech/AppData/Roaming/npm/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Suporte Evoltech/AppData/Roaming/Composer/vendor/bin/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/PowerToys/DSCModules/"
+      - "C:/Users/Suporte Evoltech/.dotnet/tools/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python314/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python314/Scripts/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/lld-link"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Program Files (x86)/Embarcadero/Studio/37.0/bin/lld-link.com"
+      - "C:/Program Files (x86)/Embarcadero/Studio/37.0/bin/lld-link.exe"
+      - "C:/Program Files (x86)/Embarcadero/Studio/37.0/bin/lld-link"
+      - "C:/Users/Public/Documents/Embarcadero/Studio/37.0/Bpl/lld-link.com"
+      - "C:/Users/Public/Documents/Embarcadero/Studio/37.0/Bpl/lld-link.exe"
+      - "C:/Users/Public/Documents/Embarcadero/Studio/37.0/Bpl/lld-link"
+      - "C:/Program Files (x86)/Embarcadero/Studio/37.0/bin64/lld-link.com"
+      - "C:/Program Files (x86)/Embarcadero/Studio/37.0/bin64/lld-link.exe"
+      - "C:/Program Files (x86)/Embarcadero/Studio/37.0/bin64/lld-link"
+      - "C:/Users/Public/Documents/Embarcadero/Studio/37.0/Bpl/Win64/lld-link.com"
+      - "C:/Users/Public/Documents/Embarcadero/Studio/37.0/Bpl/Win64/lld-link.exe"
+      - "C:/Users/Public/Documents/Embarcadero/Studio/37.0/Bpl/Win64/lld-link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files/nodejs/lld-link.com"
+      - "C:/Program Files/nodejs/lld-link.exe"
+      - "C:/Program Files/nodejs/lld-link"
+      - "C:/Users/Suporte Evoltech/.config/herd/bin/nvm/lld-link.com"
+      - "C:/Users/Suporte Evoltech/.config/herd/bin/nvm/lld-link.exe"
+      - "C:/Users/Suporte Evoltech/.config/herd/bin/nvm/lld-link"
+      - "C:/Users/Suporte Evoltech/.config/herd/bin/php84/lld-link.com"
+      - "C:/Users/Suporte Evoltech/.config/herd/bin/php84/lld-link.exe"
+      - "C:/Users/Suporte Evoltech/.config/herd/bin/php84/lld-link"
+      - "C:/ProgramData/ComposerSetup/bin/lld-link.com"
+      - "C:/ProgramData/ComposerSetup/bin/lld-link.exe"
+      - "C:/ProgramData/ComposerSetup/bin/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files/PuTTY/lld-link.com"
+      - "C:/Program Files/PuTTY/lld-link.exe"
+      - "C:/Program Files/PuTTY/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python39/Scripts/lld-link.com"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python39/Scripts/lld-link.exe"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python39/Scripts/lld-link"
+      - "C:/Program Files/Git/bin/lld-link.com"
+      - "C:/Program Files/Git/bin/lld-link.exe"
+      - "C:/Program Files/Git/bin/lld-link"
+      - "C:/ffmpeg/lld-link.com"
+      - "C:/ffmpeg/lld-link.exe"
+      - "C:/ffmpeg/lld-link"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python39/lld-link.com"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python39/lld-link.exe"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python39/lld-link"
+      - "C:/Program Files/VideoLAN/VLC/lld-link.com"
+      - "C:/Program Files/VideoLAN/VLC/lld-link.exe"
+      - "C:/Program Files/VideoLAN/VLC/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/110/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/110/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/110/Tools/Binn/lld-link"
+      - "C:/Program Files (x86)/Microsoft SQL Server/110/Tools/Binn/ManagementStudio/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft SQL Server/110/Tools/Binn/ManagementStudio/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft SQL Server/110/Tools/Binn/ManagementStudio/lld-link"
+      - "C:/Program Files (x86)/Microsoft SQL Server/110/Tools/Binn/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft SQL Server/110/Tools/Binn/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft SQL Server/110/Tools/Binn/lld-link"
+      - "C:/Program Files (x86)/Microsoft Visual Studio 10.0/Common7/IDE/PrivateAssemblies/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio 10.0/Common7/IDE/PrivateAssemblies/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio 10.0/Common7/IDE/PrivateAssemblies/lld-link"
+      - "C:/Program Files (x86)/Microsoft SQL Server/110/DTS/Binn/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft SQL Server/110/DTS/Binn/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft SQL Server/110/DTS/Binn/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/110/DTS/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/110/DTS/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/110/DTS/Binn/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Launcher/lld-link.com"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Launcher/lld-link.exe"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Launcher/lld-link"
+      - "C:/Users/Suporte Evoltech/.config/herd/bin/lld-link.com"
+      - "C:/Users/Suporte Evoltech/.config/herd/bin/lld-link.exe"
+      - "C:/Users/Suporte Evoltech/.config/herd/bin/lld-link"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/Suporte Evoltech/AppData/Local/GitHubDesktop/bin/lld-link.com"
+      - "C:/Users/Suporte Evoltech/AppData/Local/GitHubDesktop/bin/lld-link.exe"
+      - "C:/Users/Suporte Evoltech/AppData/Local/GitHubDesktop/bin/lld-link"
+      - "C:/Users/Suporte Evoltech/AppData/Roaming/npm/lld-link.com"
+      - "C:/Users/Suporte Evoltech/AppData/Roaming/npm/lld-link.exe"
+      - "C:/Users/Suporte Evoltech/AppData/Roaming/npm/lld-link"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/Suporte Evoltech/AppData/Roaming/Composer/vendor/bin/lld-link.com"
+      - "C:/Users/Suporte Evoltech/AppData/Roaming/Composer/vendor/bin/lld-link.exe"
+      - "C:/Users/Suporte Evoltech/AppData/Roaming/Composer/vendor/bin/lld-link"
+      - "C:/Users/Suporte Evoltech/AppData/Local/PowerToys/DSCModules/lld-link.com"
+      - "C:/Users/Suporte Evoltech/AppData/Local/PowerToys/DSCModules/lld-link.exe"
+      - "C:/Users/Suporte Evoltech/AppData/Local/PowerToys/DSCModules/lld-link"
+      - "C:/Users/Suporte Evoltech/.dotnet/tools/lld-link.com"
+      - "C:/Users/Suporte Evoltech/.dotnet/tools/lld-link.exe"
+      - "C:/Users/Suporte Evoltech/.dotnet/tools/lld-link"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python314/lld-link.com"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python314/lld-link.exe"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python314/lld-link"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python314/Scripts/lld-link.com"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python314/Scripts/lld-link.exe"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python314/Scripts/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Embarcadero\\Studio\\37.0\\bin"
+        - "C:\\Users\\Public\\Documents\\Embarcadero\\Studio\\37.0\\Bpl"
+        - "C:\\Program Files (x86)\\Embarcadero\\Studio\\37.0\\bin64"
+        - "C:\\Users\\Public\\Documents\\Embarcadero\\Studio\\37.0\\Bpl\\Win64"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\Suporte Evoltech\\.config\\herd\\bin\\nvm"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Users\\Suporte Evoltech\\.config\\herd\\bin\\php84"
+        - "C:\\ProgramData\\ComposerSetup\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\Programs\\Python\\Python39\\Scripts"
+        - "C:\\Program Files\\Git\\bin"
+        - "C:\\ffmpeg"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\Programs\\Python\\Python39\\"
+        - "C:\\Program Files\\VideoLAN\\VLC\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\110\\Tools\\Binn\\ManagementStudio\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\110\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio 10.0\\Common7\\IDE\\PrivateAssemblies\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\110\\DTS\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\110\\DTS\\Binn\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Suporte Evoltech\\.config\\herd\\bin"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Roaming\\Composer\\vendor\\bin"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\PowerToys\\DSCModules\\"
+        - "C:\\Users\\Suporte Evoltech\\.dotnet\\tools"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/Platform/Windows-MSVC.cmake:592 (enable_language)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/Platform/Windows-MSVC.cmake:565 (__windows_compiler_msvc_enable_rc)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/Platform/Windows-MSVC-CXX.cmake:6 (__windows_compiler_msvc)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeCXXInformation.cmake:48 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Embarcadero/Studio/37.0/bin/"
+      - "C:/Users/Public/Documents/Embarcadero/Studio/37.0/Bpl/"
+      - "C:/Program Files (x86)/Embarcadero/Studio/37.0/bin64/"
+      - "C:/Users/Public/Documents/Embarcadero/Studio/37.0/Bpl/Win64/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Users/Suporte Evoltech/.config/herd/bin/nvm/"
+      - "C:/Users/Suporte Evoltech/.config/herd/bin/php84/"
+      - "C:/ProgramData/ComposerSetup/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python39/Scripts/"
+      - "C:/Program Files/Git/bin/"
+      - "C:/ffmpeg/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python39/"
+      - "C:/Program Files/VideoLAN/VLC/"
+      - "C:/Program Files/Microsoft SQL Server/110/Tools/Binn/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/110/Tools/Binn/ManagementStudio/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/110/Tools/Binn/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio 10.0/Common7/IDE/PrivateAssemblies/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/110/DTS/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/110/DTS/Binn/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Suporte Evoltech/.config/herd/bin/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/Suporte Evoltech/AppData/Roaming/npm/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Suporte Evoltech/AppData/Roaming/Composer/vendor/bin/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/PowerToys/DSCModules/"
+      - "C:/Users/Suporte Evoltech/.dotnet/tools/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python314/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/SaturnYaulStudio/bin/"
+      - "C:/Program Files (x86)/SaturnYaulStudio/sbin/"
+      - "C:/Program Files (x86)/SaturnYaulStudio/"
+    searched_directories:
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc"
+      - "C:/Program Files (x86)/Embarcadero/Studio/37.0/bin/rc.com"
+      - "C:/Program Files (x86)/Embarcadero/Studio/37.0/bin/rc.exe"
+      - "C:/Program Files (x86)/Embarcadero/Studio/37.0/bin/rc"
+      - "C:/Users/Public/Documents/Embarcadero/Studio/37.0/Bpl/rc.com"
+      - "C:/Users/Public/Documents/Embarcadero/Studio/37.0/Bpl/rc.exe"
+      - "C:/Users/Public/Documents/Embarcadero/Studio/37.0/Bpl/rc"
+      - "C:/Program Files (x86)/Embarcadero/Studio/37.0/bin64/rc.com"
+      - "C:/Program Files (x86)/Embarcadero/Studio/37.0/bin64/rc.exe"
+      - "C:/Program Files (x86)/Embarcadero/Studio/37.0/bin64/rc"
+      - "C:/Users/Public/Documents/Embarcadero/Studio/37.0/Bpl/Win64/rc.com"
+      - "C:/Users/Public/Documents/Embarcadero/Studio/37.0/Bpl/Win64/rc.exe"
+      - "C:/Users/Public/Documents/Embarcadero/Studio/37.0/Bpl/Win64/rc"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/rc.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/rc.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/rc"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/rc.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/rc.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/rc"
+      - "C:/Windows/System32/rc.com"
+      - "C:/Windows/System32/rc.exe"
+      - "C:/Windows/System32/rc"
+      - "C:/Windows/rc.com"
+      - "C:/Windows/rc.exe"
+      - "C:/Windows/rc"
+      - "C:/Windows/System32/wbem/rc.com"
+      - "C:/Windows/System32/wbem/rc.exe"
+      - "C:/Windows/System32/wbem/rc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
+      - "C:/Windows/System32/OpenSSH/rc.com"
+      - "C:/Windows/System32/OpenSSH/rc.exe"
+      - "C:/Windows/System32/OpenSSH/rc"
+      - "C:/Program Files/Git/cmd/rc.com"
+      - "C:/Program Files/Git/cmd/rc.exe"
+      - "C:/Program Files/Git/cmd/rc"
+      - "C:/Program Files/nodejs/rc.com"
+      - "C:/Program Files/nodejs/rc.exe"
+      - "C:/Program Files/nodejs/rc"
+      - "C:/Users/Suporte Evoltech/.config/herd/bin/nvm/rc.com"
+      - "C:/Users/Suporte Evoltech/.config/herd/bin/nvm/rc.exe"
+      - "C:/Users/Suporte Evoltech/.config/herd/bin/nvm/rc"
+      - "C:/Users/Suporte Evoltech/.config/herd/bin/php84/rc.com"
+      - "C:/Users/Suporte Evoltech/.config/herd/bin/php84/rc.exe"
+      - "C:/Users/Suporte Evoltech/.config/herd/bin/php84/rc"
+      - "C:/ProgramData/ComposerSetup/bin/rc.com"
+      - "C:/ProgramData/ComposerSetup/bin/rc.exe"
+      - "C:/ProgramData/ComposerSetup/bin/rc"
+      - "C:/Program Files/dotnet/rc.com"
+      - "C:/Program Files/dotnet/rc.exe"
+      - "C:/Program Files/dotnet/rc"
+      - "C:/Program Files/PuTTY/rc.com"
+      - "C:/Program Files/PuTTY/rc.exe"
+      - "C:/Program Files/PuTTY/rc"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python39/Scripts/rc.com"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python39/Scripts/rc.exe"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python39/Scripts/rc"
+      - "C:/Program Files/Git/bin/rc.com"
+      - "C:/Program Files/Git/bin/rc.exe"
+      - "C:/Program Files/Git/bin/rc"
+      - "C:/ffmpeg/rc.com"
+      - "C:/ffmpeg/rc.exe"
+      - "C:/ffmpeg/rc"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python39/rc.com"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python39/rc.exe"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python39/rc"
+      - "C:/Program Files/VideoLAN/VLC/rc.com"
+      - "C:/Program Files/VideoLAN/VLC/rc.exe"
+      - "C:/Program Files/VideoLAN/VLC/rc"
+      - "C:/Program Files/Microsoft SQL Server/110/Tools/Binn/rc.com"
+      - "C:/Program Files/Microsoft SQL Server/110/Tools/Binn/rc.exe"
+      - "C:/Program Files/Microsoft SQL Server/110/Tools/Binn/rc"
+      - "C:/Program Files (x86)/Microsoft SQL Server/110/Tools/Binn/ManagementStudio/rc.com"
+      - "C:/Program Files (x86)/Microsoft SQL Server/110/Tools/Binn/ManagementStudio/rc.exe"
+      - "C:/Program Files (x86)/Microsoft SQL Server/110/Tools/Binn/ManagementStudio/rc"
+      - "C:/Program Files (x86)/Microsoft SQL Server/110/Tools/Binn/rc.com"
+      - "C:/Program Files (x86)/Microsoft SQL Server/110/Tools/Binn/rc.exe"
+      - "C:/Program Files (x86)/Microsoft SQL Server/110/Tools/Binn/rc"
+      - "C:/Program Files (x86)/Microsoft Visual Studio 10.0/Common7/IDE/PrivateAssemblies/rc.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio 10.0/Common7/IDE/PrivateAssemblies/rc.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio 10.0/Common7/IDE/PrivateAssemblies/rc"
+      - "C:/Program Files (x86)/Microsoft SQL Server/110/DTS/Binn/rc.com"
+      - "C:/Program Files (x86)/Microsoft SQL Server/110/DTS/Binn/rc.exe"
+      - "C:/Program Files (x86)/Microsoft SQL Server/110/DTS/Binn/rc"
+      - "C:/Program Files/Microsoft SQL Server/110/DTS/Binn/rc.com"
+      - "C:/Program Files/Microsoft SQL Server/110/DTS/Binn/rc.exe"
+      - "C:/Program Files/Microsoft SQL Server/110/DTS/Binn/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Launcher/rc.com"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Launcher/rc.exe"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Launcher/rc"
+      - "C:/Users/Suporte Evoltech/.config/herd/bin/rc.com"
+      - "C:/Users/Suporte Evoltech/.config/herd/bin/rc.exe"
+      - "C:/Users/Suporte Evoltech/.config/herd/bin/rc"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Microsoft/WindowsApps/rc"
+      - "C:/Users/Suporte Evoltech/AppData/Local/GitHubDesktop/bin/rc.com"
+      - "C:/Users/Suporte Evoltech/AppData/Local/GitHubDesktop/bin/rc.exe"
+      - "C:/Users/Suporte Evoltech/AppData/Local/GitHubDesktop/bin/rc"
+      - "C:/Users/Suporte Evoltech/AppData/Roaming/npm/rc.com"
+      - "C:/Users/Suporte Evoltech/AppData/Roaming/npm/rc.exe"
+      - "C:/Users/Suporte Evoltech/AppData/Roaming/npm/rc"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Microsoft VS Code/bin/rc.com"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Microsoft VS Code/bin/rc.exe"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Microsoft VS Code/bin/rc"
+      - "C:/Users/Suporte Evoltech/AppData/Roaming/Composer/vendor/bin/rc.com"
+      - "C:/Users/Suporte Evoltech/AppData/Roaming/Composer/vendor/bin/rc.exe"
+      - "C:/Users/Suporte Evoltech/AppData/Roaming/Composer/vendor/bin/rc"
+      - "C:/Users/Suporte Evoltech/AppData/Local/PowerToys/DSCModules/rc.com"
+      - "C:/Users/Suporte Evoltech/AppData/Local/PowerToys/DSCModules/rc.exe"
+      - "C:/Users/Suporte Evoltech/AppData/Local/PowerToys/DSCModules/rc"
+      - "C:/Users/Suporte Evoltech/.dotnet/tools/rc.com"
+      - "C:/Users/Suporte Evoltech/.dotnet/tools/rc.exe"
+      - "C:/Users/Suporte Evoltech/.dotnet/tools/rc"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python314/rc.com"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python314/rc.exe"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python314/rc"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python314/Scripts/rc.com"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python314/Scripts/rc.exe"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python314/Scripts/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Program Files/CMake/sbin/rc.com"
+      - "C:/Program Files/CMake/sbin/rc.exe"
+      - "C:/Program Files/CMake/sbin/rc"
+      - "C:/Program Files/CMake/rc.com"
+      - "C:/Program Files/CMake/rc.exe"
+      - "C:/Program Files/CMake/rc"
+      - "C:/Program Files (x86)/SaturnYaulStudio/bin/rc.com"
+      - "C:/Program Files (x86)/SaturnYaulStudio/bin/rc.exe"
+      - "C:/Program Files (x86)/SaturnYaulStudio/bin/rc"
+      - "C:/Program Files (x86)/SaturnYaulStudio/sbin/rc.com"
+      - "C:/Program Files (x86)/SaturnYaulStudio/sbin/rc.exe"
+      - "C:/Program Files (x86)/SaturnYaulStudio/sbin/rc"
+      - "C:/Program Files (x86)/SaturnYaulStudio/rc.com"
+      - "C:/Program Files (x86)/SaturnYaulStudio/rc.exe"
+      - "C:/Program Files (x86)/SaturnYaulStudio/rc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Embarcadero\\Studio\\37.0\\bin"
+        - "C:\\Users\\Public\\Documents\\Embarcadero\\Studio\\37.0\\Bpl"
+        - "C:\\Program Files (x86)\\Embarcadero\\Studio\\37.0\\bin64"
+        - "C:\\Users\\Public\\Documents\\Embarcadero\\Studio\\37.0\\Bpl\\Win64"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\Suporte Evoltech\\.config\\herd\\bin\\nvm"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Users\\Suporte Evoltech\\.config\\herd\\bin\\php84"
+        - "C:\\ProgramData\\ComposerSetup\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\Programs\\Python\\Python39\\Scripts"
+        - "C:\\Program Files\\Git\\bin"
+        - "C:\\ffmpeg"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\Programs\\Python\\Python39\\"
+        - "C:\\Program Files\\VideoLAN\\VLC\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\110\\Tools\\Binn\\ManagementStudio\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\110\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio 10.0\\Common7\\IDE\\PrivateAssemblies\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\110\\DTS\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\110\\DTS\\Binn\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Suporte Evoltech\\.config\\herd\\bin"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Roaming\\Composer\\vendor\\bin"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\PowerToys\\DSCModules\\"
+        - "C:\\Users\\Suporte Evoltech\\.dotnet\\tools"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/SaturnYaulStudio"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/SaturnYaulStudio"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:123 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/Desenvolvimento/Engine/saturn-yaul-studio/editor/build/CMakeFiles/CMakeScratch/TryCompile-5kl9v3"
+      binary: "D:/Desenvolvimento/Engine/saturn-yaul-studio/editor/build/CMakeFiles/CMakeScratch/TryCompile-5kl9v3"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: false
+      stdout: |
+        Change Dir: 'D:/Desenvolvimento/Engine/saturn-yaul-studio/editor/build/CMakeFiles/CMakeScratch/TryCompile-5kl9v3'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_1ef0a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft(R) Build Engine versão 16.11.6+a918ceb31 para .NET Framework 
+        Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+        
+        Compilação de 14/09/2026 10:33:32 iniciada.
+        Projeto "D:\\Desenvolvimento\\Engine\\saturn-yaul-studio\\editor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5kl9v3\\cmTC_1ef0a.vcxproj" no nó 1 (destinos padrão).
+        PrepareForBuild:
+          Criando o diretório "D:\\Desenvolvimento\\Engine\\saturn-yaul-studio\\editor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5kl9v3\\Debug\\".
+          Criando o diretório "cmTC_1ef0a.dir\\Debug\\cmTC_1ef0a.tlog\\".
+        InitializeBuildStatus:
+          Criando "cmTC_1ef0a.dir\\Debug\\cmTC_1ef0a.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_1ef0a.dir\\Debug\\\\" /Fd"cmTC_1ef0a.dir\\Debug\\vc142.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Versão 19.29.30159 para x64
+          Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+          CMakeCXXCompilerABI.cpp
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_1ef0a.dir\\Debug\\\\" /Fd"cmTC_1ef0a.dir\\Debug\\vc142.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\Desenvolvimento\\Engine\\saturn-yaul-studio\\editor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5kl9v3\\Debug\\cmTC_1ef0a.exe" /INCREMENTAL /ILK:"cmTC_1ef0a.dir\\Debug\\cmTC_1ef0a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Desenvolvimento/Engine/saturn-yaul-studio/editor/build/CMakeFiles/CMakeScratch/TryCompile-5kl9v3/Debug/cmTC_1ef0a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/Desenvolvimento/Engine/saturn-yaul-studio/editor/build/CMakeFiles/CMakeScratch/TryCompile-5kl9v3/Debug/cmTC_1ef0a.lib" /MACHINE:X64  /machine:x64 cmTC_1ef0a.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_1ef0a.vcxproj -> D:\\Desenvolvimento\\Engine\\saturn-yaul-studio\\editor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5kl9v3\\Debug\\cmTC_1ef0a.exe
+        FinalizeBuildStatus:
+          Excluindo o arquivo "cmTC_1ef0a.dir\\Debug\\cmTC_1ef0a.tlog\\unsuccessfulbuild".
+          Tocando "cmTC_1ef0a.dir\\Debug\\cmTC_1ef0a.tlog\\cmTC_1ef0a.lastbuildstate".
+        Projeto de compilação pronto "D:\\Desenvolvimento\\Engine\\saturn-yaul-studio\\editor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5kl9v3\\cmTC_1ef0a.vcxproj" (destinos padrão).
+        
+        Compilação com êxito.
+            0 Aviso(s)
+            0 Erro(s)
+        
+        Tempo Decorrido 00:00:01.29
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:291 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        link line: [  C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\Desenvolvimento\\Engine\\saturn-yaul-studio\\editor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5kl9v3\\Debug\\cmTC_1ef0a.exe" /INCREMENTAL /ILK:"cmTC_1ef0a.dir\\Debug\\cmTC_1ef0a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Desenvolvimento/Engine/saturn-yaul-studio/editor/build/CMakeFiles/CMakeScratch/TryCompile-5kl9v3/Debug/cmTC_1ef0a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/Desenvolvimento/Engine/saturn-yaul-studio/editor/build/CMakeFiles/CMakeScratch/TryCompile-5kl9v3/Debug/cmTC_1ef0a.lib" /MACHINE:X64  /machine:x64 cmTC_1ef0a.dir\\Debug\\CMakeCXXCompilerABI.obj] ==> linker [C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe]
+        linker tool for 'CXX': C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe 
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/Internal/CMakeDetermineLinkerId.cmake:41 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:337 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.29.30159.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:123 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/Desenvolvimento/Engine/saturn-yaul-studio/editor/build/CMakeFiles/CMakeScratch/TryCompile-47szul"
+      binary: "D:/Desenvolvimento/Engine/saturn-yaul-studio/editor/build/CMakeFiles/CMakeScratch/TryCompile-47szul"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: false
+      stdout: |
+        Change Dir: 'D:/Desenvolvimento/Engine/saturn-yaul-studio/editor/build/CMakeFiles/CMakeScratch/TryCompile-47szul'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_a4568.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft(R) Build Engine versão 16.11.6+a918ceb31 para .NET Framework 
+        Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+        
+        Compilação de 14/09/2026 10:33:34 iniciada.
+        Projeto "D:\\Desenvolvimento\\Engine\\saturn-yaul-studio\\editor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-47szul\\cmTC_a4568.vcxproj" no nó 1 (destinos padrão).
+        PrepareForBuild:
+          Criando o diretório "D:\\Desenvolvimento\\Engine\\saturn-yaul-studio\\editor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-47szul\\Debug\\".
+          Criando o diretório "cmTC_a4568.dir\\Debug\\cmTC_a4568.tlog\\".
+        InitializeBuildStatus:
+          Criando "cmTC_a4568.dir\\Debug\\cmTC_a4568.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_a4568.dir\\Debug\\\\" /Fd"cmTC_a4568.dir\\Debug\\vc142.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Versão 19.29.30159 para x64
+          CMakeCCompilerABI.c
+          Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_a4568.dir\\Debug\\\\" /Fd"cmTC_a4568.dir\\Debug\\vc142.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\Desenvolvimento\\Engine\\saturn-yaul-studio\\editor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-47szul\\Debug\\cmTC_a4568.exe" /INCREMENTAL /ILK:"cmTC_a4568.dir\\Debug\\cmTC_a4568.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Desenvolvimento/Engine/saturn-yaul-studio/editor/build/CMakeFiles/CMakeScratch/TryCompile-47szul/Debug/cmTC_a4568.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/Desenvolvimento/Engine/saturn-yaul-studio/editor/build/CMakeFiles/CMakeScratch/TryCompile-47szul/Debug/cmTC_a4568.lib" /MACHINE:X64  /machine:x64 cmTC_a4568.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_a4568.vcxproj -> D:\\Desenvolvimento\\Engine\\saturn-yaul-studio\\editor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-47szul\\Debug\\cmTC_a4568.exe
+        FinalizeBuildStatus:
+          Excluindo o arquivo "cmTC_a4568.dir\\Debug\\cmTC_a4568.tlog\\unsuccessfulbuild".
+          Tocando "cmTC_a4568.dir\\Debug\\cmTC_a4568.tlog\\cmTC_a4568.lastbuildstate".
+        Projeto de compilação pronto "D:\\Desenvolvimento\\Engine\\saturn-yaul-studio\\editor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-47szul\\cmTC_a4568.vcxproj" (destinos padrão).
+        
+        Compilação com êxito.
+            0 Aviso(s)
+            0 Erro(s)
+        
+        Tempo Decorrido 00:00:00.93
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:291 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        link line: [  C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\Desenvolvimento\\Engine\\saturn-yaul-studio\\editor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-47szul\\Debug\\cmTC_a4568.exe" /INCREMENTAL /ILK:"cmTC_a4568.dir\\Debug\\cmTC_a4568.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Desenvolvimento/Engine/saturn-yaul-studio/editor/build/CMakeFiles/CMakeScratch/TryCompile-47szul/Debug/cmTC_a4568.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/Desenvolvimento/Engine/saturn-yaul-studio/editor/build/CMakeFiles/CMakeScratch/TryCompile-47szul/Debug/cmTC_a4568.lib" /MACHINE:X64  /machine:x64 cmTC_a4568.dir\\Debug\\CMakeCCompilerABI.obj] ==> linker [C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe]
+        linker tool for 'C': C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe 
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/Internal/CMakeDetermineLinkerId.cmake:41 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:337 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.29.30159.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/FindGit.cmake:111 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/ExternalProject/shared_internal_commands.cmake:930 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/FetchContent.cmake:1703 (_ep_add_download_command)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/FetchContent.cmake:1620 (__FetchContent_populateDirect)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/FetchContent.cmake:2160:EVAL:2 (__FetchContent_doPopulation)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/FetchContent.cmake:2160 (cmake_language)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/FetchContent.cmake:2401 (__FetchContent_Populate)"
+      - "CMakeLists.txt:29 (FetchContent_MakeAvailable)"
+    mode: "program"
+    variable: "GIT_EXECUTABLE"
+    description: "Git command line client"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "git.cmd"
+      - "git"
+    candidate_directories:
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Embarcadero/Studio/37.0/bin/"
+      - "C:/Users/Public/Documents/Embarcadero/Studio/37.0/Bpl/"
+      - "C:/Program Files (x86)/Embarcadero/Studio/37.0/bin64/"
+      - "C:/Users/Public/Documents/Embarcadero/Studio/37.0/Bpl/Win64/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Users/Suporte Evoltech/.config/herd/bin/nvm/"
+      - "C:/Users/Suporte Evoltech/.config/herd/bin/php84/"
+      - "C:/ProgramData/ComposerSetup/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python39/Scripts/"
+      - "C:/Program Files/Git/bin/"
+      - "C:/ffmpeg/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python39/"
+      - "C:/Program Files/VideoLAN/VLC/"
+      - "C:/Program Files/Microsoft SQL Server/110/Tools/Binn/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/110/Tools/Binn/ManagementStudio/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/110/Tools/Binn/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio 10.0/Common7/IDE/PrivateAssemblies/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/110/DTS/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/110/DTS/Binn/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Suporte Evoltech/.config/herd/bin/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/Suporte Evoltech/AppData/Roaming/npm/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Suporte Evoltech/AppData/Roaming/Composer/vendor/bin/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/PowerToys/DSCModules/"
+      - "C:/Users/Suporte Evoltech/.dotnet/tools/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python314/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/SaturnYaulStudio/bin/"
+      - "C:/Program Files (x86)/SaturnYaulStudio/sbin/"
+      - "C:/Program Files (x86)/SaturnYaulStudio/"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Atlassian/SourceTree/git_local/bin/"
+    searched_directories:
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/git.cmd.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/git.cmd.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/git.cmd"
+      - "C:/Program Files (x86)/Embarcadero/Studio/37.0/bin/git.cmd.com"
+      - "C:/Program Files (x86)/Embarcadero/Studio/37.0/bin/git.cmd.exe"
+      - "C:/Program Files (x86)/Embarcadero/Studio/37.0/bin/git.cmd"
+      - "C:/Users/Public/Documents/Embarcadero/Studio/37.0/Bpl/git.cmd.com"
+      - "C:/Users/Public/Documents/Embarcadero/Studio/37.0/Bpl/git.cmd.exe"
+      - "C:/Users/Public/Documents/Embarcadero/Studio/37.0/Bpl/git.cmd"
+      - "C:/Program Files (x86)/Embarcadero/Studio/37.0/bin64/git.cmd.com"
+      - "C:/Program Files (x86)/Embarcadero/Studio/37.0/bin64/git.cmd.exe"
+      - "C:/Program Files (x86)/Embarcadero/Studio/37.0/bin64/git.cmd"
+      - "C:/Users/Public/Documents/Embarcadero/Studio/37.0/Bpl/Win64/git.cmd.com"
+      - "C:/Users/Public/Documents/Embarcadero/Studio/37.0/Bpl/Win64/git.cmd.exe"
+      - "C:/Users/Public/Documents/Embarcadero/Studio/37.0/Bpl/Win64/git.cmd"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/git.cmd.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/git.cmd.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/git.cmd"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/git.cmd.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/git.cmd.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/git.cmd"
+      - "C:/Windows/System32/git.cmd.com"
+      - "C:/Windows/System32/git.cmd.exe"
+      - "C:/Windows/System32/git.cmd"
+      - "C:/Windows/git.cmd.com"
+      - "C:/Windows/git.cmd.exe"
+      - "C:/Windows/git.cmd"
+      - "C:/Windows/System32/wbem/git.cmd.com"
+      - "C:/Windows/System32/wbem/git.cmd.exe"
+      - "C:/Windows/System32/wbem/git.cmd"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.cmd.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.cmd.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.cmd"
+      - "C:/Windows/System32/OpenSSH/git.cmd.com"
+      - "C:/Windows/System32/OpenSSH/git.cmd.exe"
+      - "C:/Windows/System32/OpenSSH/git.cmd"
+      - "C:/Program Files/Git/cmd/git.cmd.com"
+      - "C:/Program Files/Git/cmd/git.cmd.exe"
+      - "C:/Program Files/Git/cmd/git.cmd"
+      - "C:/Program Files/nodejs/git.cmd.com"
+      - "C:/Program Files/nodejs/git.cmd.exe"
+      - "C:/Program Files/nodejs/git.cmd"
+      - "C:/Users/Suporte Evoltech/.config/herd/bin/nvm/git.cmd.com"
+      - "C:/Users/Suporte Evoltech/.config/herd/bin/nvm/git.cmd.exe"
+      - "C:/Users/Suporte Evoltech/.config/herd/bin/nvm/git.cmd"
+      - "C:/Users/Suporte Evoltech/.config/herd/bin/php84/git.cmd.com"
+      - "C:/Users/Suporte Evoltech/.config/herd/bin/php84/git.cmd.exe"
+      - "C:/Users/Suporte Evoltech/.config/herd/bin/php84/git.cmd"
+      - "C:/ProgramData/ComposerSetup/bin/git.cmd.com"
+      - "C:/ProgramData/ComposerSetup/bin/git.cmd.exe"
+      - "C:/ProgramData/ComposerSetup/bin/git.cmd"
+      - "C:/Program Files/dotnet/git.cmd.com"
+      - "C:/Program Files/dotnet/git.cmd.exe"
+      - "C:/Program Files/dotnet/git.cmd"
+      - "C:/Program Files/PuTTY/git.cmd.com"
+      - "C:/Program Files/PuTTY/git.cmd.exe"
+      - "C:/Program Files/PuTTY/git.cmd"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/git.cmd.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/git.cmd.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/git.cmd"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python39/Scripts/git.cmd.com"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python39/Scripts/git.cmd.exe"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python39/Scripts/git.cmd"
+      - "C:/Program Files/Git/bin/git.cmd.com"
+      - "C:/Program Files/Git/bin/git.cmd.exe"
+      - "C:/Program Files/Git/bin/git.cmd"
+      - "C:/ffmpeg/git.cmd.com"
+      - "C:/ffmpeg/git.cmd.exe"
+      - "C:/ffmpeg/git.cmd"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python39/git.cmd.com"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python39/git.cmd.exe"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python39/git.cmd"
+      - "C:/Program Files/VideoLAN/VLC/git.cmd.com"
+      - "C:/Program Files/VideoLAN/VLC/git.cmd.exe"
+      - "C:/Program Files/VideoLAN/VLC/git.cmd"
+      - "C:/Program Files/Microsoft SQL Server/110/Tools/Binn/git.cmd.com"
+      - "C:/Program Files/Microsoft SQL Server/110/Tools/Binn/git.cmd.exe"
+      - "C:/Program Files/Microsoft SQL Server/110/Tools/Binn/git.cmd"
+      - "C:/Program Files (x86)/Microsoft SQL Server/110/Tools/Binn/ManagementStudio/git.cmd.com"
+      - "C:/Program Files (x86)/Microsoft SQL Server/110/Tools/Binn/ManagementStudio/git.cmd.exe"
+      - "C:/Program Files (x86)/Microsoft SQL Server/110/Tools/Binn/ManagementStudio/git.cmd"
+      - "C:/Program Files (x86)/Microsoft SQL Server/110/Tools/Binn/git.cmd.com"
+      - "C:/Program Files (x86)/Microsoft SQL Server/110/Tools/Binn/git.cmd.exe"
+      - "C:/Program Files (x86)/Microsoft SQL Server/110/Tools/Binn/git.cmd"
+      - "C:/Program Files (x86)/Microsoft Visual Studio 10.0/Common7/IDE/PrivateAssemblies/git.cmd.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio 10.0/Common7/IDE/PrivateAssemblies/git.cmd.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio 10.0/Common7/IDE/PrivateAssemblies/git.cmd"
+      - "C:/Program Files (x86)/Microsoft SQL Server/110/DTS/Binn/git.cmd.com"
+      - "C:/Program Files (x86)/Microsoft SQL Server/110/DTS/Binn/git.cmd.exe"
+      - "C:/Program Files (x86)/Microsoft SQL Server/110/DTS/Binn/git.cmd"
+      - "C:/Program Files/Microsoft SQL Server/110/DTS/Binn/git.cmd.com"
+      - "C:/Program Files/Microsoft SQL Server/110/DTS/Binn/git.cmd.exe"
+      - "C:/Program Files/Microsoft SQL Server/110/DTS/Binn/git.cmd"
+      - "C:/Program Files/CMake/bin/git.cmd.com"
+      - "C:/Program Files/CMake/bin/git.cmd.exe"
+      - "C:/Program Files/CMake/bin/git.cmd"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Launcher/git.cmd.com"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Launcher/git.cmd.exe"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Launcher/git.cmd"
+      - "C:/Users/Suporte Evoltech/.config/herd/bin/git.cmd.com"
+      - "C:/Users/Suporte Evoltech/.config/herd/bin/git.cmd.exe"
+      - "C:/Users/Suporte Evoltech/.config/herd/bin/git.cmd"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Microsoft/WindowsApps/git.cmd.com"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Microsoft/WindowsApps/git.cmd.exe"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Microsoft/WindowsApps/git.cmd"
+      - "C:/Users/Suporte Evoltech/AppData/Local/GitHubDesktop/bin/git.cmd.com"
+      - "C:/Users/Suporte Evoltech/AppData/Local/GitHubDesktop/bin/git.cmd.exe"
+      - "C:/Users/Suporte Evoltech/AppData/Local/GitHubDesktop/bin/git.cmd"
+      - "C:/Users/Suporte Evoltech/AppData/Roaming/npm/git.cmd.com"
+      - "C:/Users/Suporte Evoltech/AppData/Roaming/npm/git.cmd.exe"
+      - "C:/Users/Suporte Evoltech/AppData/Roaming/npm/git.cmd"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Microsoft VS Code/bin/git.cmd.com"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Microsoft VS Code/bin/git.cmd.exe"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Microsoft VS Code/bin/git.cmd"
+      - "C:/Users/Suporte Evoltech/AppData/Roaming/Composer/vendor/bin/git.cmd.com"
+      - "C:/Users/Suporte Evoltech/AppData/Roaming/Composer/vendor/bin/git.cmd.exe"
+      - "C:/Users/Suporte Evoltech/AppData/Roaming/Composer/vendor/bin/git.cmd"
+      - "C:/Users/Suporte Evoltech/AppData/Local/PowerToys/DSCModules/git.cmd.com"
+      - "C:/Users/Suporte Evoltech/AppData/Local/PowerToys/DSCModules/git.cmd.exe"
+      - "C:/Users/Suporte Evoltech/AppData/Local/PowerToys/DSCModules/git.cmd"
+      - "C:/Users/Suporte Evoltech/.dotnet/tools/git.cmd.com"
+      - "C:/Users/Suporte Evoltech/.dotnet/tools/git.cmd.exe"
+      - "C:/Users/Suporte Evoltech/.dotnet/tools/git.cmd"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python314/git.cmd.com"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python314/git.cmd.exe"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python314/git.cmd"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python314/Scripts/git.cmd.com"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python314/Scripts/git.cmd.exe"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Programs/Python/Python314/Scripts/git.cmd"
+      - "C:/Program Files/bin/git.cmd.com"
+      - "C:/Program Files/bin/git.cmd.exe"
+      - "C:/Program Files/bin/git.cmd"
+      - "C:/Program Files/sbin/git.cmd.com"
+      - "C:/Program Files/sbin/git.cmd.exe"
+      - "C:/Program Files/sbin/git.cmd"
+      - "C:/Program Files/git.cmd.com"
+      - "C:/Program Files/git.cmd.exe"
+      - "C:/Program Files/git.cmd"
+      - "C:/Program Files (x86)/bin/git.cmd.com"
+      - "C:/Program Files (x86)/bin/git.cmd.exe"
+      - "C:/Program Files (x86)/bin/git.cmd"
+      - "C:/Program Files (x86)/sbin/git.cmd.com"
+      - "C:/Program Files (x86)/sbin/git.cmd.exe"
+      - "C:/Program Files (x86)/sbin/git.cmd"
+      - "C:/Program Files (x86)/git.cmd.com"
+      - "C:/Program Files (x86)/git.cmd.exe"
+      - "C:/Program Files (x86)/git.cmd"
+      - "C:/Program Files/CMake/bin/git.cmd.com"
+      - "C:/Program Files/CMake/bin/git.cmd.exe"
+      - "C:/Program Files/CMake/bin/git.cmd"
+      - "C:/Program Files/CMake/sbin/git.cmd.com"
+      - "C:/Program Files/CMake/sbin/git.cmd.exe"
+      - "C:/Program Files/CMake/sbin/git.cmd"
+      - "C:/Program Files/CMake/git.cmd.com"
+      - "C:/Program Files/CMake/git.cmd.exe"
+      - "C:/Program Files/CMake/git.cmd"
+      - "C:/Program Files (x86)/SaturnYaulStudio/bin/git.cmd.com"
+      - "C:/Program Files (x86)/SaturnYaulStudio/bin/git.cmd.exe"
+      - "C:/Program Files (x86)/SaturnYaulStudio/bin/git.cmd"
+      - "C:/Program Files (x86)/SaturnYaulStudio/sbin/git.cmd.com"
+      - "C:/Program Files (x86)/SaturnYaulStudio/sbin/git.cmd.exe"
+      - "C:/Program Files (x86)/SaturnYaulStudio/sbin/git.cmd"
+      - "C:/Program Files (x86)/SaturnYaulStudio/git.cmd.com"
+      - "C:/Program Files (x86)/SaturnYaulStudio/git.cmd.exe"
+      - "C:/Program Files (x86)/SaturnYaulStudio/git.cmd"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd.com"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd.exe"
+      - "C:/Users/Suporte Evoltech/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/git.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/git.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/git"
+      - "C:/Program Files (x86)/Embarcadero/Studio/37.0/bin/git.com"
+      - "C:/Program Files (x86)/Embarcadero/Studio/37.0/bin/git.exe"
+      - "C:/Program Files (x86)/Embarcadero/Studio/37.0/bin/git"
+      - "C:/Users/Public/Documents/Embarcadero/Studio/37.0/Bpl/git.com"
+      - "C:/Users/Public/Documents/Embarcadero/Studio/37.0/Bpl/git.exe"
+      - "C:/Users/Public/Documents/Embarcadero/Studio/37.0/Bpl/git"
+      - "C:/Program Files (x86)/Embarcadero/Studio/37.0/bin64/git.com"
+      - "C:/Program Files (x86)/Embarcadero/Studio/37.0/bin64/git.exe"
+      - "C:/Program Files (x86)/Embarcadero/Studio/37.0/bin64/git"
+      - "C:/Users/Public/Documents/Embarcadero/Studio/37.0/Bpl/Win64/git.com"
+      - "C:/Users/Public/Documents/Embarcadero/Studio/37.0/Bpl/Win64/git.exe"
+      - "C:/Users/Public/Documents/Embarcadero/Studio/37.0/Bpl/Win64/git"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/git.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/git.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/git"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/git.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/git.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/git"
+      - "C:/Windows/System32/git.com"
+      - "C:/Windows/System32/git.exe"
+      - "C:/Windows/System32/git"
+      - "C:/Windows/git.com"
+      - "C:/Windows/git.exe"
+      - "C:/Windows/git"
+      - "C:/Windows/System32/wbem/git.com"
+      - "C:/Windows/System32/wbem/git.exe"
+      - "C:/Windows/System32/wbem/git"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git"
+      - "C:/Windows/System32/OpenSSH/git.com"
+      - "C:/Windows/System32/OpenSSH/git.exe"
+      - "C:/Windows/System32/OpenSSH/git"
+      - "C:/Program Files/Git/cmd/git.com"
+    found: "C:/Program Files/Git/cmd/git.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Embarcadero\\Studio\\37.0\\bin"
+        - "C:\\Users\\Public\\Documents\\Embarcadero\\Studio\\37.0\\Bpl"
+        - "C:\\Program Files (x86)\\Embarcadero\\Studio\\37.0\\bin64"
+        - "C:\\Users\\Public\\Documents\\Embarcadero\\Studio\\37.0\\Bpl\\Win64"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\Suporte Evoltech\\.config\\herd\\bin\\nvm"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Users\\Suporte Evoltech\\.config\\herd\\bin\\php84"
+        - "C:\\ProgramData\\ComposerSetup\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\Programs\\Python\\Python39\\Scripts"
+        - "C:\\Program Files\\Git\\bin"
+        - "C:\\ffmpeg"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\Programs\\Python\\Python39\\"
+        - "C:\\Program Files\\VideoLAN\\VLC\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\110\\Tools\\Binn\\ManagementStudio\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\110\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio 10.0\\Common7\\IDE\\PrivateAssemblies\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\110\\DTS\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\110\\DTS\\Binn\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Suporte Evoltech\\.config\\herd\\bin"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Roaming\\Composer\\vendor\\bin"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\PowerToys\\DSCModules\\"
+        - "C:\\Users\\Suporte Evoltech\\.dotnet\\tools"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\Suporte Evoltech\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/SaturnYaulStudio"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/SaturnYaulStudio"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/Internal/CheckSourceCompiles.cmake:81 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CheckCCompilerFlag.cmake:105 (cmake_check_compiler_flag)"
+      - "build/_deps/raylib-src/cmake/AddIfFlagCompiles.cmake:3 (CHECK_C_COMPILER_FLAG)"
+      - "build/_deps/raylib-src/cmake/CompilerFlags.cmake:5 (add_if_flag_compiles)"
+      - "build/_deps/raylib-src/CMakeLists.txt:34 (include)"
+    checks:
+      - "Performing Test COMPILER_HAS_THOSE_TOGGLES"
+    directories:
+      source: "D:/Desenvolvimento/Engine/saturn-yaul-studio/editor/build/CMakeFiles/CMakeScratch/TryCompile-ogvqiv"
+      binary: "D:/Desenvolvimento/Engine/saturn-yaul-studio/editor/build/CMakeFiles/CMakeScratch/TryCompile-ogvqiv"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Desenvolvimento/Engine/saturn-yaul-studio/editor/build/_deps/raylib-src/cmake"
+    buildResult:
+      variable: "COMPILER_HAS_THOSE_TOGGLES"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Desenvolvimento/Engine/saturn-yaul-studio/editor/build/CMakeFiles/CMakeScratch/TryCompile-ogvqiv'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_5c108.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft(R) Build Engine versão 16.11.6+a918ceb31 para .NET Framework 
+        Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+        
+        Compilação de 14/09/2026 10:34:22 iniciada.
+        Projeto "D:\\Desenvolvimento\\Engine\\saturn-yaul-studio\\editor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ogvqiv\\cmTC_5c108.vcxproj" no nó 1 (destinos padrão).
+        PrepareForBuild:
+          Criando o diretório "D:\\Desenvolvimento\\Engine\\saturn-yaul-studio\\editor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ogvqiv\\Debug\\".
+          Criando o diretório "cmTC_5c108.dir\\Debug\\cmTC_5c108.tlog\\".
+        InitializeBuildStatus:
+          Criando "cmTC_5c108.dir\\Debug\\cmTC_5c108.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D COMPILER_HAS_THOSE_TOGGLES /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_5c108.dir\\Debug\\\\" /Fd"cmTC_5c108.dir\\Debug\\vc142.pdb" /external:W1 /TC /errorReport:queue  -Werror=pointer-arith "D:\\Desenvolvimento\\Engine\\saturn-yaul-studio\\editor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ogvqiv\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Versão 19.29.30159 para x64
+          Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D COMPILER_HAS_THOSE_TOGGLES /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_5c108.dir\\Debug\\\\" /Fd"cmTC_5c108.dir\\Debug\\vc142.pdb" /external:W1 /TC /errorReport:queue  -Werror=pointer-arith "D:\\Desenvolvimento\\Engine\\saturn-yaul-studio\\editor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ogvqiv\\src.c"
+        cl : linha de comando error D8021: argumento numérico inválido '/Werror=pointer-arith' [D:\\Desenvolvimento\\Engine\\saturn-yaul-studio\\editor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ogvqiv\\cmTC_5c108.vcxproj]
+        Projeto de compilação pronto "D:\\Desenvolvimento\\Engine\\saturn-yaul-studio\\editor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ogvqiv\\cmTC_5c108.vcxproj" (destinos padrão) -- FALHA.
+        
+        FALHA da compilação.
+        
+        "D:\\Desenvolvimento\\Engine\\saturn-yaul-studio\\editor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ogvqiv\\cmTC_5c108.vcxproj" (destino padrão) (1) ->
+        (ClCompile destino) -> 
+          cl : linha de comando error D8021: argumento numérico inválido '/Werror=pointer-arith' [D:\\Desenvolvimento\\Engine\\saturn-yaul-studio\\editor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ogvqiv\\cmTC_5c108.vcxproj]
+        
+            0 Aviso(s)
+            1 Erro(s)
+        
+        Tempo Decorrido 00:00:00.60
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/Internal/CheckSourceCompiles.cmake:81 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/FindThreads.cmake:160 (check_c_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/FindThreads.cmake:226 (_threads_check_libc)"
+      - "build/_deps/raylib-src/src/external/glfw/CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "D:/Desenvolvimento/Engine/saturn-yaul-studio/editor/build/CMakeFiles/CMakeScratch/TryCompile-fal4i6"
+      binary: "D:/Desenvolvimento/Engine/saturn-yaul-studio/editor/build/CMakeFiles/CMakeScratch/TryCompile-fal4i6"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Desenvolvimento/Engine/saturn-yaul-studio/editor/build/_deps/raylib-src/cmake;D:/Desenvolvimento/Engine/saturn-yaul-studio/editor/build/_deps/raylib-src/src/external/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Desenvolvimento/Engine/saturn-yaul-studio/editor/build/CMakeFiles/CMakeScratch/TryCompile-fal4i6'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_cf86d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft(R) Build Engine versão 16.11.6+a918ceb31 para .NET Framework 
+        Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+        
+        Compilação de 14/09/2026 10:34:23 iniciada.
+        Projeto "D:\\Desenvolvimento\\Engine\\saturn-yaul-studio\\editor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fal4i6\\cmTC_cf86d.vcxproj" no nó 1 (destinos padrão).
+        PrepareForBuild:
+          Criando o diretório "D:\\Desenvolvimento\\Engine\\saturn-yaul-studio\\editor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fal4i6\\Debug\\".
+          Criando o diretório "cmTC_cf86d.dir\\Debug\\cmTC_cf86d.tlog\\".
+        InitializeBuildStatus:
+          Criando "cmTC_cf86d.dir\\Debug\\cmTC_cf86d.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_cf86d.dir\\Debug\\\\" /Fd"cmTC_cf86d.dir\\Debug\\vc142.pdb" /external:W1 /TC /errorReport:queue "D:\\Desenvolvimento\\Engine\\saturn-yaul-studio\\editor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fal4i6\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Versão 19.29.30159 para x64
+          src.c
+          Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_cf86d.dir\\Debug\\\\" /Fd"cmTC_cf86d.dir\\Debug\\vc142.pdb" /external:W1 /TC /errorReport:queue "D:\\Desenvolvimento\\Engine\\saturn-yaul-studio\\editor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fal4i6\\src.c"
+        D:\\Desenvolvimento\\Engine\\saturn-yaul-studio\\editor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fal4i6\\src.c(1,10): fatal error C1083: Não é possível abrir arquivo incluir: 'pthread.h': No such file or directory [D:\\Desenvolvimento\\Engine\\saturn-yaul-studio\\editor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fal4i6\\cmTC_cf86d.vcxproj]
+        Projeto de compilação pronto "D:\\Desenvolvimento\\Engine\\saturn-yaul-studio\\editor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fal4i6\\cmTC_cf86d.vcxproj" (destinos padrão) -- FALHA.
+        
+        FALHA da compilação.
+        
+        "D:\\Desenvolvimento\\Engine\\saturn-yaul-studio\\editor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fal4i6\\cmTC_cf86d.vcxproj" (destino padrão) (1) ->
+        (ClCompile destino) -> 
+          D:\\Desenvolvimento\\Engine\\saturn-yaul-studio\\editor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fal4i6\\src.c(1,10): fatal error C1083: Não é possível abrir arquivo incluir: 'pthread.h': No such file or directory [D:\\Desenvolvimento\\Engine\\saturn-yaul-studio\\editor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fal4i6\\cmTC_cf86d.vcxproj]
+        
+            0 Aviso(s)
+            1 Erro(s)
+        
+        Tempo Decorrido 00:00:00.94
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CheckLibraryExists.cmake:142 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/FindThreads.cmake:175 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/FindThreads.cmake:238 (_threads_check_lib)"
+      - "build/_deps/raylib-src/src/external/glfw/CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "D:/Desenvolvimento/Engine/saturn-yaul-studio/editor/build/CMakeFiles/CMakeScratch/TryCompile-oc1hyx"
+      binary: "D:/Desenvolvimento/Engine/saturn-yaul-studio/editor/build/CMakeFiles/CMakeScratch/TryCompile-oc1hyx"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Desenvolvimento/Engine/saturn-yaul-studio/editor/build/_deps/raylib-src/cmake;D:/Desenvolvimento/Engine/saturn-yaul-studio/editor/build/_deps/raylib-src/src/external/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Desenvolvimento/Engine/saturn-yaul-studio/editor/build/CMakeFiles/CMakeScratch/TryCompile-oc1hyx'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_87a0f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft(R) Build Engine versão 16.11.6+a918ceb31 para .NET Framework 
+        Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+        
+        Compilação de 14/09/2026 10:34:24 iniciada.
+        Projeto "D:\\Desenvolvimento\\Engine\\saturn-yaul-studio\\editor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oc1hyx\\cmTC_87a0f.vcxproj" no nó 1 (destinos padrão).
+        PrepareForBuild:
+          Criando o diretório "D:\\Desenvolvimento\\Engine\\saturn-yaul-studio\\editor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oc1hyx\\Debug\\".
+          Criando o diretório "cmTC_87a0f.dir\\Debug\\cmTC_87a0f.tlog\\".
+        InitializeBuildStatus:
+          Criando "cmTC_87a0f.dir\\Debug\\cmTC_87a0f.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_87a0f.dir\\Debug\\\\" /Fd"cmTC_87a0f.dir\\Debug\\vc142.pdb" /external:W1 /TC /errorReport:queue "D:\\Desenvolvimento\\Engine\\saturn-yaul-studio\\editor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oc1hyx\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Versão 19.29.30159 para x64
+          CheckFunctionExists.c
+          Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_87a0f.dir\\Debug\\\\" /Fd"cmTC_87a0f.dir\\Debug\\vc142.pdb" /external:W1 /TC /errorReport:queue "D:\\Desenvolvimento\\Engine\\saturn-yaul-studio\\editor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oc1hyx\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\Desenvolvimento\\Engine\\saturn-yaul-studio\\editor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oc1hyx\\Debug\\cmTC_87a0f.exe" /INCREMENTAL /ILK:"cmTC_87a0f.dir\\Debug\\cmTC_87a0f.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Desenvolvimento/Engine/saturn-yaul-studio/editor/build/CMakeFiles/CMakeScratch/TryCompile-oc1hyx/Debug/cmTC_87a0f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/Desenvolvimento/Engine/saturn-yaul-studio/editor/build/CMakeFiles/CMakeScratch/TryCompile-oc1hyx/Debug/cmTC_87a0f.lib" /MACHINE:X64  /machine:x64 cmTC_87a0f.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: não é possível abrir o arquivo 'pthreads.lib' [D:\\Desenvolvimento\\Engine\\saturn-yaul-studio\\editor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oc1hyx\\cmTC_87a0f.vcxproj]
+        Projeto de compilação pronto "D:\\Desenvolvimento\\Engine\\saturn-yaul-studio\\editor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oc1hyx\\cmTC_87a0f.vcxproj" (destinos padrão) -- FALHA.
+        
+        FALHA da compilação.
+        
+        "D:\\Desenvolvimento\\Engine\\saturn-yaul-studio\\editor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oc1hyx\\cmTC_87a0f.vcxproj" (destino padrão) (1) ->
+        (Link destino) -> 
+          LINK : fatal error LNK1104: não é possível abrir o arquivo 'pthreads.lib' [D:\\Desenvolvimento\\Engine\\saturn-yaul-studio\\editor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oc1hyx\\cmTC_87a0f.vcxproj]
+        
+            0 Aviso(s)
+            1 Erro(s)
+        
+        Tempo Decorrido 00:00:00.87
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CheckLibraryExists.cmake:142 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/FindThreads.cmake:175 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/FindThreads.cmake:239 (_threads_check_lib)"
+      - "build/_deps/raylib-src/src/external/glfw/CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "D:/Desenvolvimento/Engine/saturn-yaul-studio/editor/build/CMakeFiles/CMakeScratch/TryCompile-9uois1"
+      binary: "D:/Desenvolvimento/Engine/saturn-yaul-studio/editor/build/CMakeFiles/CMakeScratch/TryCompile-9uois1"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Desenvolvimento/Engine/saturn-yaul-studio/editor/build/_deps/raylib-src/cmake;D:/Desenvolvimento/Engine/saturn-yaul-studio/editor/build/_deps/raylib-src/src/external/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Desenvolvimento/Engine/saturn-yaul-studio/editor/build/CMakeFiles/CMakeScratch/TryCompile-9uois1'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_c0efe.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft(R) Build Engine versão 16.11.6+a918ceb31 para .NET Framework 
+        Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+        
+        Compilação de 14/09/2026 10:34:26 iniciada.
+        Projeto "D:\\Desenvolvimento\\Engine\\saturn-yaul-studio\\editor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9uois1\\cmTC_c0efe.vcxproj" no nó 1 (destinos padrão).
+        PrepareForBuild:
+          Criando o diretório "D:\\Desenvolvimento\\Engine\\saturn-yaul-studio\\editor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9uois1\\Debug\\".
+          Criando o diretório "cmTC_c0efe.dir\\Debug\\cmTC_c0efe.tlog\\".
+        InitializeBuildStatus:
+          Criando "cmTC_c0efe.dir\\Debug\\cmTC_c0efe.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_c0efe.dir\\Debug\\\\" /Fd"cmTC_c0efe.dir\\Debug\\vc142.pdb" /external:W1 /TC /errorReport:queue "D:\\Desenvolvimento\\Engine\\saturn-yaul-studio\\editor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9uois1\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Versão 19.29.30159 para x64
+          CheckFunctionExists.c
+          Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_c0efe.dir\\Debug\\\\" /Fd"cmTC_c0efe.dir\\Debug\\vc142.pdb" /external:W1 /TC /errorReport:queue "D:\\Desenvolvimento\\Engine\\saturn-yaul-studio\\editor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9uois1\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\Desenvolvimento\\Engine\\saturn-yaul-studio\\editor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9uois1\\Debug\\cmTC_c0efe.exe" /INCREMENTAL /ILK:"cmTC_c0efe.dir\\Debug\\cmTC_c0efe.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Desenvolvimento/Engine/saturn-yaul-studio/editor/build/CMakeFiles/CMakeScratch/TryCompile-9uois1/Debug/cmTC_c0efe.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/Desenvolvimento/Engine/saturn-yaul-studio/editor/build/CMakeFiles/CMakeScratch/TryCompile-9uois1/Debug/cmTC_c0efe.lib" /MACHINE:X64  /machine:x64 cmTC_c0efe.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: não é possível abrir o arquivo 'pthread.lib' [D:\\Desenvolvimento\\Engine\\saturn-yaul-studio\\editor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9uois1\\cmTC_c0efe.vcxproj]
+        Projeto de compilação pronto "D:\\Desenvolvimento\\Engine\\saturn-yaul-studio\\editor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9uois1\\cmTC_c0efe.vcxproj" (destinos padrão) -- FALHA.
+        
+        FALHA da compilação.
+        
+        "D:\\Desenvolvimento\\Engine\\saturn-yaul-studio\\editor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9uois1\\cmTC_c0efe.vcxproj" (destino padrão) (1) ->
+        (Link destino) -> 
+          LINK : fatal error LNK1104: não é possível abrir o arquivo 'pthread.lib' [D:\\Desenvolvimento\\Engine\\saturn-yaul-studio\\editor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9uois1\\cmTC_c0efe.vcxproj]
+        
+            0 Aviso(s)
+            1 Erro(s)
+        
+        Tempo Decorrido 00:00:00.94
+        
+      exitCode: 1
+...

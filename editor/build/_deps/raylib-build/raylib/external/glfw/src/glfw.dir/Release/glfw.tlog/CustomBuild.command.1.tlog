@@ -1,0 +1,10 @@
+^D:\DESENVOLVIMENTO\ENGINE\SATURN-YAUL-STUDIO\EDITOR\BUILD\_DEPS\RAYLIB-SRC\SRC\EXTERNAL\GLFW\SRC\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Desenvolvimento/Engine/saturn-yaul-studio/editor -BD:/Desenvolvimento/Engine/saturn-yaul-studio/editor/build --check-stamp-file D:/Desenvolvimento/Engine/saturn-yaul-studio/editor/build/_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

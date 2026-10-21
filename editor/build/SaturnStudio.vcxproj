@@ -1,0 +1,413 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7025C269-5789-366A-82E2-1587C1DD9F4D}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>SaturnStudio</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">SaturnStudio.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">SaturnStudio</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">SaturnStudio.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">SaturnStudio</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">SaturnStudio.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">SaturnStudio</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">SaturnStudio.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">SaturnStudio</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\src;D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\_deps\imgui-src;D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\_deps\rlimgui-src;D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\_deps\raylib-src\src;D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\_deps\raylib-src\src\external\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;PLATFORM_DESKTOP;GRAPHICS_API_OPENGL_33;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;PLATFORM_DESKTOP;GRAPHICS_API_OPENGL_33;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\src;D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\_deps\imgui-src;D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\_deps\rlimgui-src;D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\_deps\raylib-src\src;D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\_deps\raylib-src\src\external\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\src;D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\_deps\imgui-src;D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\_deps\rlimgui-src;D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\_deps\raylib-src\src;D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\_deps\raylib-src\src\external\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>_deps\raylib-build\raylib\Debug\raylib.lib;comdlg32.lib;shell32.lib;opengl32.lib;glu32.lib;winmm.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>D:/Desenvolvimento/Engine/saturn-yaul-studio/editor/build/Debug/SaturnStudio.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>D:/Desenvolvimento/Engine/saturn-yaul-studio/editor/build/Debug/SaturnStudio.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\src;D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\_deps\imgui-src;D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\_deps\rlimgui-src;D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\_deps\raylib-src\src;D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\_deps\raylib-src\src\external\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;PLATFORM_DESKTOP;GRAPHICS_API_OPENGL_33;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;PLATFORM_DESKTOP;GRAPHICS_API_OPENGL_33;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\src;D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\_deps\imgui-src;D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\_deps\rlimgui-src;D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\_deps\raylib-src\src;D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\_deps\raylib-src\src\external\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\src;D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\_deps\imgui-src;D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\_deps\rlimgui-src;D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\_deps\raylib-src\src;D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\_deps\raylib-src\src\external\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>_deps\raylib-build\raylib\Release\raylib.lib;comdlg32.lib;shell32.lib;opengl32.lib;glu32.lib;winmm.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>D:/Desenvolvimento/Engine/saturn-yaul-studio/editor/build/Release/SaturnStudio.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>D:/Desenvolvimento/Engine/saturn-yaul-studio/editor/build/Release/SaturnStudio.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\src;D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\_deps\imgui-src;D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\_deps\rlimgui-src;D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\_deps\raylib-src\src;D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\_deps\raylib-src\src\external\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;PLATFORM_DESKTOP;GRAPHICS_API_OPENGL_33;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;PLATFORM_DESKTOP;GRAPHICS_API_OPENGL_33;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\src;D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\_deps\imgui-src;D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\_deps\rlimgui-src;D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\_deps\raylib-src\src;D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\_deps\raylib-src\src\external\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\src;D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\_deps\imgui-src;D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\_deps\rlimgui-src;D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\_deps\raylib-src\src;D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\_deps\raylib-src\src\external\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>_deps\raylib-build\raylib\MinSizeRel\raylib.lib;comdlg32.lib;shell32.lib;opengl32.lib;glu32.lib;winmm.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>D:/Desenvolvimento/Engine/saturn-yaul-studio/editor/build/MinSizeRel/SaturnStudio.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>D:/Desenvolvimento/Engine/saturn-yaul-studio/editor/build/MinSizeRel/SaturnStudio.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\src;D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\_deps\imgui-src;D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\_deps\rlimgui-src;D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\_deps\raylib-src\src;D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\_deps\raylib-src\src\external\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;PLATFORM_DESKTOP;GRAPHICS_API_OPENGL_33;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;PLATFORM_DESKTOP;GRAPHICS_API_OPENGL_33;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\src;D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\_deps\imgui-src;D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\_deps\rlimgui-src;D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\_deps\raylib-src\src;D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\_deps\raylib-src\src\external\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\src;D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\_deps\imgui-src;D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\_deps\rlimgui-src;D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\_deps\raylib-src\src;D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\_deps\raylib-src\src\external\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>_deps\raylib-build\raylib\RelWithDebInfo\raylib.lib;comdlg32.lib;shell32.lib;opengl32.lib;glu32.lib;winmm.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>D:/Desenvolvimento/Engine/saturn-yaul-studio/editor/build/RelWithDebInfo/SaturnStudio.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>D:/Desenvolvimento/Engine/saturn-yaul-studio/editor/build/RelWithDebInfo/SaturnStudio.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Desenvolvimento/Engine/saturn-yaul-studio/editor/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Desenvolvimento/Engine/saturn-yaul-studio/editor -BD:/Desenvolvimento/Engine/saturn-yaul-studio/editor/build --check-stamp-file D:/Desenvolvimento/Engine/saturn-yaul-studio/editor/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\ExternalProject\PatchInfo.txt.in;C:\Program Files\CMake\share\cmake-4.4\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-4.4\Modules\ExternalProject\UpdateInfo.txt.in;C:\Program Files\CMake\share\cmake-4.4\Modules\ExternalProject\gitclone.cmake.in;C:\Program Files\CMake\share\cmake-4.4\Modules\ExternalProject\gitupdate.cmake.in;C:\Program Files\CMake\share\cmake-4.4\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\ExternalProject\stepscript.cmake.in;C:\Program Files\CMake\share\cmake-4.4\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\WindowsPaths.cmake;D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\CMakeFiles\4.4.3\CMakeCCompiler.cmake;D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\CMakeFiles\4.4.3\CMakeCXXCompiler.cmake;D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\CMakeFiles\4.4.3\CMakeRCCompiler.cmake;D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\CMakeFiles\4.4.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Desenvolvimento/Engine/saturn-yaul-studio/editor/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Desenvolvimento/Engine/saturn-yaul-studio/editor -BD:/Desenvolvimento/Engine/saturn-yaul-studio/editor/build --check-stamp-file D:/Desenvolvimento/Engine/saturn-yaul-studio/editor/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\ExternalProject\PatchInfo.txt.in;C:\Program Files\CMake\share\cmake-4.4\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-4.4\Modules\ExternalProject\UpdateInfo.txt.in;C:\Program Files\CMake\share\cmake-4.4\Modules\ExternalProject\gitclone.cmake.in;C:\Program Files\CMake\share\cmake-4.4\Modules\ExternalProject\gitupdate.cmake.in;C:\Program Files\CMake\share\cmake-4.4\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\ExternalProject\stepscript.cmake.in;C:\Program Files\CMake\share\cmake-4.4\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\WindowsPaths.cmake;D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\CMakeFiles\4.4.3\CMakeCCompiler.cmake;D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\CMakeFiles\4.4.3\CMakeCXXCompiler.cmake;D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\CMakeFiles\4.4.3\CMakeRCCompiler.cmake;D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\CMakeFiles\4.4.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Desenvolvimento/Engine/saturn-yaul-studio/editor/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Desenvolvimento/Engine/saturn-yaul-studio/editor -BD:/Desenvolvimento/Engine/saturn-yaul-studio/editor/build --check-stamp-file D:/Desenvolvimento/Engine/saturn-yaul-studio/editor/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\ExternalProject\PatchInfo.txt.in;C:\Program Files\CMake\share\cmake-4.4\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-4.4\Modules\ExternalProject\UpdateInfo.txt.in;C:\Program Files\CMake\share\cmake-4.4\Modules\ExternalProject\gitclone.cmake.in;C:\Program Files\CMake\share\cmake-4.4\Modules\ExternalProject\gitupdate.cmake.in;C:\Program Files\CMake\share\cmake-4.4\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\ExternalProject\stepscript.cmake.in;C:\Program Files\CMake\share\cmake-4.4\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\WindowsPaths.cmake;D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\CMakeFiles\4.4.3\CMakeCCompiler.cmake;D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\CMakeFiles\4.4.3\CMakeCXXCompiler.cmake;D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\CMakeFiles\4.4.3\CMakeRCCompiler.cmake;D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\CMakeFiles\4.4.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Desenvolvimento/Engine/saturn-yaul-studio/editor/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Desenvolvimento/Engine/saturn-yaul-studio/editor -BD:/Desenvolvimento/Engine/saturn-yaul-studio/editor/build --check-stamp-file D:/Desenvolvimento/Engine/saturn-yaul-studio/editor/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\ExternalProject\PatchInfo.txt.in;C:\Program Files\CMake\share\cmake-4.4\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-4.4\Modules\ExternalProject\UpdateInfo.txt.in;C:\Program Files\CMake\share\cmake-4.4\Modules\ExternalProject\gitclone.cmake.in;C:\Program Files\CMake\share\cmake-4.4\Modules\ExternalProject\gitupdate.cmake.in;C:\Program Files\CMake\share\cmake-4.4\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\ExternalProject\stepscript.cmake.in;C:\Program Files\CMake\share\cmake-4.4\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\WindowsPaths.cmake;D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\CMakeFiles\4.4.3\CMakeCCompiler.cmake;D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\CMakeFiles\4.4.3\CMakeCXXCompiler.cmake;D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\CMakeFiles\4.4.3\CMakeRCCompiler.cmake;D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\CMakeFiles\4.4.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\src\main.cpp" />
+    <ClCompile Include="D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\src\platform_dialogs.cpp" />
+    <ClCompile Include="D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\src\app_icon.cpp" />
+    <ClCompile Include="D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\src\scene.cpp" />
+    <ClCompile Include="D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\src\scene_serializer.cpp" />
+    <ClCompile Include="D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\src\project.cpp" />
+    <ClInclude Include="D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\src\project.h" />
+    <ClCompile Include="D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\src\gizmo.cpp" />
+    <ClCompile Include="D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\src\yaul_exporter.cpp" />
+    <ResourceCompile Include="D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\resources.rc" />
+    <ClCompile Include="D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\_deps\imgui-src\imgui.cpp" />
+    <ClCompile Include="D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\_deps\imgui-src\imgui_draw.cpp" />
+    <ClCompile Include="D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\_deps\imgui-src\imgui_tables.cpp" />
+    <ClCompile Include="D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\_deps\imgui-src\imgui_widgets.cpp" />
+    <ClCompile Include="D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\_deps\rlimgui-src\rlImGui.cpp" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\ZERO_CHECK.vcxproj">
+      <Project>{4A599E06-B749-38B0-BE9F-1AA14EFA2380}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\_deps\raylib-build\raylib\external\glfw\src\glfw.vcxproj">
+      <Project>{72B2EBAD-ACF8-3BC2-A7D2-2487C09E0AEF}</Project>
+      <Name>glfw</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\_deps\raylib-build\raylib\raylib.vcxproj">
+      <Project>{2B4189C5-03C3-3EBB-9404-1F01ABF975CF}</Project>
+      <Name>raylib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

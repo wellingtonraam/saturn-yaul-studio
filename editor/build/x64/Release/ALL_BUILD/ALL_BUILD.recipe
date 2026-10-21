@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\x64\ReleasE\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\Release\SaturnStudio.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\x64\ReleasE\ALL_BUILD</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

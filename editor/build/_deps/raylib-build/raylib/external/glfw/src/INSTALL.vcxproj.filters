@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Desenvolvimento\Engine\saturn-yaul-studio\editor\build\CMakeFiles\bad635499523540b6ac91901324a04d2\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{CEDB3878-852F-3B9D-AC28-C849C62FCA96}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

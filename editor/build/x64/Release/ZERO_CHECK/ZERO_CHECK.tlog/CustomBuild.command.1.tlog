@@ -1,0 +1,10 @@
+^D:\DESENVOLVIMENTO\ENGINE\SATURN-YAUL-STUDIO\EDITOR\BUILD\CMAKEFILES\C342C6B3DCA48547492A3F8DBE61482D\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Desenvolvimento/Engine/saturn-yaul-studio/editor -BD:/Desenvolvimento/Engine/saturn-yaul-studio/editor/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Desenvolvimento/Engine/saturn-yaul-studio/editor/build/SaturnYaulStudio.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

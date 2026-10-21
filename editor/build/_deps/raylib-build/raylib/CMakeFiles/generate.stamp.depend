@@ -1,0 +1,19 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-4.4/Modules/CPack.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/CPackComponent.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/FindOpenGL.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/GNUInstallDirs.cmake
+C:/Program Files/CMake/share/cmake-4.4/Templates/CPackConfig.cmake.in
+D:/Desenvolvimento/Engine/saturn-yaul-studio/editor/build/_deps/raylib-src/cmake/CompileDefinitions.cmake
+D:/Desenvolvimento/Engine/saturn-yaul-studio/editor/build/_deps/raylib-src/cmake/GlfwImport.cmake
+D:/Desenvolvimento/Engine/saturn-yaul-studio/editor/build/_deps/raylib-src/cmake/InstallConfigurations.cmake
+D:/Desenvolvimento/Engine/saturn-yaul-studio/editor/build/_deps/raylib-src/cmake/JoinPaths.cmake
+D:/Desenvolvimento/Engine/saturn-yaul-studio/editor/build/_deps/raylib-src/cmake/LibraryConfigurations.cmake
+D:/Desenvolvimento/Engine/saturn-yaul-studio/editor/build/_deps/raylib-src/cmake/LibraryPathToLinkerFlags.cmake
+D:/Desenvolvimento/Engine/saturn-yaul-studio/editor/build/_deps/raylib-src/cmake/PackConfigurations.cmake
+D:/Desenvolvimento/Engine/saturn-yaul-studio/editor/build/_deps/raylib-src/cmake/PopulateConfigVariablesLocally.cmake
+D:/Desenvolvimento/Engine/saturn-yaul-studio/editor/build/_deps/raylib-src/cmake/raylib-config-version.cmake
+D:/Desenvolvimento/Engine/saturn-yaul-studio/editor/build/_deps/raylib-src/raylib.pc.in
+D:/Desenvolvimento/Engine/saturn-yaul-studio/editor/build/_deps/raylib-src/src/CMakeLists.txt
